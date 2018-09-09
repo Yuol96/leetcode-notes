@@ -29,8 +29,14 @@ def gen_list():
 	output = ""
 	for tag,infoList in dct.items():
 		output += "## {}\n\n".format(tag)
+		output += "| Difficulty | Question | Link to Leetcode |\n"
+		output += "| ------ | ------ | ------ |\n"
 		for info in infoList:
-			output += "[{}. {}]({}) ({})\t[my solution]({})\n".format(info['id'],info['name'], info['link'], info['difficulty'], "./solutions/{}.py".format(info['id']))
+			output += "| {} | [{}. {}]({}) | [link]({}) |\n".format(
+					info['difficulty'],
+					info['id'], info['name'],  "./solutions/{}.py".format(info['id']),
+					info['link']
+				)
 	with open("leetcode_list.txt",'w') as hd:
 		hd.write(output)
 
