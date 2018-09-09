@@ -12,6 +12,10 @@ def parse_single_code(filename):
 		end = text.index('}"""', start) + 1
 		jsonStr = text[start:end]
 		info = json.loads(jsonStr)
+		link = info['link'].split('/')
+		name = link[link.index('problems') + 1]
+		info['name'] = ' '.join(name.split('-'))
+		info['id'] = int(filename.name.split('.')[0])
 	return info
 
 def parse_all_solutions():
