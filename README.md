@@ -22,3 +22,10 @@ My leetcode notes and solutions
 |  |  |  | quick select | quick-select |
 | medium | [347. top k frequent elements](./solutions/347.py) | [link](https://leetcode.com/problems/top-k-frequent-elements/description/) |  | topk, bucket-sort |
 | medium | [451. sort characters by frequency](./solutions/451.py) | [link](https://leetcode.com/problems/sort-characters-by-frequency/description/) |  | bucket-sort |
+| medium | [75. sort colors](./solutions/75.py) | [link](https://leetcode.com/problems/sort-colors/description/) |  | partition, 三向切分快速排序 |
+## greedy
+
+| Difficulty | Question | Link | Version | Tags |
+| ------ | ------ | ------ | ------ | ------ |
+| medium | [435. non overlapping intervals](./solutions/435.py) | [link](https://leetcode.com/problems/non-overlapping-intervals/description/) |  |  |
+| medium | [455. sort colors](./solutions/455.py) | [link](https://leetcode.com/problems/sort-colors/description/) |  | binary-search |
