@@ -1,0 +1,4 @@
+[
+  "gen_leetcode_list.py::test_parse_single_code",
+  "gen_leetcode_list.py::test_gen_list"
+]
