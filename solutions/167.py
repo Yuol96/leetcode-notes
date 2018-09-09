@@ -4,7 +4,7 @@
 	"name": "Two Sum II - Input array is sorted",
 	"difficulty": "easy",
 	"link": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/",
-	"tags": ["two pointers"]
+	"category": ["two pointers"]
 }
 """
 

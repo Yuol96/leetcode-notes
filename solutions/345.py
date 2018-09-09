@@ -4,7 +4,7 @@
 	"name": "Reverse Vowels of a String",
 	"difficulty": "easy",
 	"link": "https://leetcode.com/problems/reverse-vowels-of-a-string/description/",
-	"tags": ["two pointers"]
+	"category": ["two pointers"]
 }
 """
 class Solution:

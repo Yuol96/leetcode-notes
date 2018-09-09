@@ -4,7 +4,8 @@
 	"name": "Valid Palindrome II",
 	"difficulty": "easy",
 	"link": "https://leetcode.com/problems/valid-palindrome-ii/description/",
-	"tags": ["two pointers"]
+	"category": ["two pointers"],
+    "tags": ["palindrome"]
 }
 """
 class Solution:

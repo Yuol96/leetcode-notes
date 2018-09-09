@@ -4,7 +4,7 @@
 	"name": "Sum of Square Numbers",
 	"difficulty": "easy",
 	"link": "https://leetcode.com/problems/sum-of-square-numbers/description/",
-	"tags": ["two pointers"]
+	"category": ["two pointers"]
 }
 """
 class Solution:

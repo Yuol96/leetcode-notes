@@ -4,7 +4,8 @@
 	"name": "Linked List Cycle",
 	"difficulty": "easy",
 	"link": "https://leetcode.com/problems/linked-list-cycle/description/",
-	"tags": ["two pointers"]
+	"category": ["two pointers"],
+    "tags": ["linked-list"]
 }
 """
 # Definition for singly-linked list.

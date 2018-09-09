@@ -4,7 +4,7 @@
 	"name": "Merge Sorted Array",
 	"difficulty": "easy",
 	"link": "https://leetcode.com/problems/merge-sorted-array/description/",
-	"tags": ["two pointers"]
+	"category": ["two pointers"]
 }
 """
 class Solution:

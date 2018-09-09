@@ -11,11 +11,19 @@ def parse_single_code(filename):
 		start = text.index('"""{') + 3
 		end = text.index('}"""', start) + 1
 		jsonStr = text[start:end]
-		info = json.loads(jsonStr)
+		try:
+			info = json.loads(jsonStr)
+		except:
+			print(filename)
+			print(jsonStr)
+			raise Exception
 		link = info['link'].split('/')
 		name = link[link.index('problems') + 1]
 		info['name'] = ' '.join(name.split('-'))
-		info['id'] = int(filename.name.split('.')[0])
+		tmp = filename.name.split('.')
+		if len(tmp) > 2:
+			info['version'] = ' '.join(tmp[1].split('-'))
+		info['id'] = int(tmp[0])
 	return info
 
 def parse_all_solutions():
@@ -28,19 +36,29 @@ def gen_list():
 	dct = {}
 	infos = parse_all_solutions()
 	for info in infos:
-		for tag in info['tags']:
-			dct[tag] = dct.get(tag, []) + [info]
+		for category in info['category']:
+			dct[category] = dct.get(category, []) + [info]
 	output = ""
-	for tag,infoList in dct.items():
-		output += "## {}\n\n".format(tag)
-		output += "| Difficulty | Question | Link to Leetcode |\n"
-		output += "| ------ | ------ | ------ |\n"
+	st = set()
+	for category,infoList in dct.items():
+		output += "## {}\n\n".format(category)
+		output += "| Difficulty | Question | Link | Version | Tags |\n"
+		output += "| ------ | ------ | ------ | ------ | ------ |\n"
 		for info in infoList:
-			output += "| {} | [{}. {}]({}) | [link]({}) |\n".format(
-					info['difficulty'],
-					info['id'], info['name'],  "./solutions/{}.py".format(info['id']),
-					info['link']
-				)
+			if info['id'] in st:
+				output += "| "" | "" | "" | {} | {} |\n".format(
+						info.get('version', ''),
+						', '.join(info.get('tags',[])),
+					)
+			else:
+				output += "| {} | [{}. {}]({}) | [link]({}) | {} | {} |\n".format(
+						info['difficulty'],
+						info['id'], info['name'],  "./solutions/{}.py".format(info['id']),
+						info['link'],
+						info.get('version', ''),
+						', '.join(info.get('tags',[])),
+					)
+			st.add(info['id'])
 	with open("leetcode_list.txt",'w') as hd:
 		hd.write(output)
 
