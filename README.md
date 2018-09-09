@@ -1,6 +1,7 @@
-# leetcode-notes
+[TOC] 
+
+# Leetcode Solutions
 My leetcode notes and solutions
-[TOC]
 
 ## two pointers
 
