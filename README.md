@@ -20,3 +20,5 @@ My leetcode notes and solutions
 | ------ | ------ | ------ | ------ | ------ |
 | medium | [215. kth largest element in an array](./solutions/215.py) | [link](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | heap | heap |
 |  |  |  | quick select | quick-select |
+| medium | [347. top k frequent elements](./solutions/347.py) | [link](https://leetcode.com/problems/top-k-frequent-elements/description/) |  | topk, bucket-sort |
+| medium | [451. sort characters by frequency](./solutions/451.py) | [link](https://leetcode.com/problems/sort-characters-by-frequency/description/) |  | bucket-sort |
