@@ -36,3 +36,10 @@ My leetcode notes and solutions
 | medium | [392. is subsequence](./solutions/392.py) | [link](https://leetcode.com/problems/is-subsequence/description/) |  | two-pointers |
 | easy | [665. non decreasing array](./solutions/665.py) | [link](https://leetcode.com/problems/non-decreasing-array/description/) |  | adjacent |
 | easy | [122. best time to buy and sell stock ii](./solutions/122.py) | [link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) |  | adjacent-element |
+## binary-search
+
+| Difficulty | Question | Link | Version | Tags |
+| ------ | ------ | ------ | ------ | ------ |
+| easy | [69. sqrtx](./solutions/69.py) | [link](https://leetcode.com/problems/sqrtx/description/) |  |  |
+| easy | [744. find smallest letter greater than target](./solutions/744.py) | [link](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/) |  |  |
+| easy | [540. single element in a sorted array](./solutions/540.py) | [link](https://leetcode.com/problems/single-element-in-a-sorted-array/description/) |  |  |
