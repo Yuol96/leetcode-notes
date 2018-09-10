@@ -50,19 +50,21 @@ def gen_list():
 		output += "| Difficulty | Question | Link | Version | Tags |\n"
 		output += "| ------ | ------ | ------ | ------ | ------ |\n"
 		for info in infoList:
-			if info['id'] in st:
-				output += "| "" | "" | "" | {} | {} |\n".format(
-						info.get('version', ''),
-						', '.join(info.get('tags',[])),
-					)
-			else:
-				output += "| {} | [{}. {}]({}) | [link]({}) | {} | {} |\n".format(
-						info['difficulty'],
-						info['id'], info['name'],  "./solutions/{}.py".format(info['id']),
-						info['link'],
-						info.get('version', ''),
-						', '.join(info.get('tags',[])),
-					)
+			# if info['id'] in st:
+			# 	output += "| "" | "" | "" | {} | {} |\n".format(
+			# 			info.get('version', ''),
+			# 			', '.join(info.get('tags',[])),
+			# 		)
+			# else:
+			version = "" if "version" not in info else ".{}".format(info['version'])
+			path = "./solutions/{}{}.py".format(info['id'],version)
+			output += "| {} | [{}. {}]({}) | [link]({}) | {} | {} |\n".format(
+					info['difficulty'],
+					info['id'], info['name'],  "./solutions/{}.py".format(info['id']),
+					info['link'],
+					info.get('version', ''),
+					', '.join(info.get('tags',[])),
+				)
 			st.add(info['id'])
 	with open("leetcode_list.txt",'w') as hd:
 		hd.write(output)

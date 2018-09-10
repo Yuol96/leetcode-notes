@@ -19,7 +19,7 @@ My leetcode notes and solutions
 | Difficulty | Question | Link | Version | Tags |
 | ------ | ------ | ------ | ------ | ------ |
 | medium | [215. kth largest element in an array](./solutions/215.py) | [link](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | heap | heap |
-|  |  |  | quick select | quick-select |
+| medium | [215. kth largest element in an array](./solutions/215.py) | [link](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | quick select | quick-select |
 | medium | [347. top k frequent elements](./solutions/347.py) | [link](https://leetcode.com/problems/top-k-frequent-elements/description/) |  | topk, bucket-sort |
 | medium | [451. sort characters by frequency](./solutions/451.py) | [link](https://leetcode.com/problems/sort-characters-by-frequency/description/) |  | bucket-sort |
 | medium | [75. sort colors](./solutions/75.py) | [link](https://leetcode.com/problems/sort-colors/description/) |  | partition, 三向切分快速排序 |
@@ -30,12 +30,13 @@ My leetcode notes and solutions
 | medium | [455. sort colors](./solutions/455.py) | [link](https://leetcode.com/problems/sort-colors/description/) |  | binary-search |
 | medium | [435. non overlapping intervals](./solutions/435.py) | [link](https://leetcode.com/problems/non-overlapping-intervals/description/) |  |  |
 | medium | [452. minimum number of arrows to burst balloons](./solutions/452.py) | [link](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/) |  |  |
-| medium | [406. queue reconstruction by height](./solutions/406.py) | [link](https://leetcode.com/problems/queue-reconstruction-by-height/description/) |  |  |
+| medium | [406. queue reconstruction by height](./solutions/406.py) | [link](https://leetcode.com/problems/queue-reconstruction-by-height/description/) | original |  |
 | medium | [763. partition labels](./solutions/763.py) | [link](https://leetcode.com/problems/partition-labels/description/) |  |  |
 | easy | [605. can place flowers](./solutions/605.py) | [link](https://leetcode.com/problems/can-place-flowers/description/) |  |  |
 | medium | [392. is subsequence](./solutions/392.py) | [link](https://leetcode.com/problems/is-subsequence/description/) |  | two-pointers |
 | easy | [665. non decreasing array](./solutions/665.py) | [link](https://leetcode.com/problems/non-decreasing-array/description/) |  | adjacent |
 | easy | [122. best time to buy and sell stock ii](./solutions/122.py) | [link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) |  | adjacent-element |
+| medium | [406. queue reconstruction by height](./solutions/406.py) | [link](https://leetcode.com/problems/queue-reconstruction-by-height/description/) | optimized |  |
 ## binary-search
 
 | Difficulty | Question | Link | Version | Tags |
