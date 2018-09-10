@@ -27,5 +27,7 @@ My leetcode notes and solutions
 
 | Difficulty | Question | Link | Version | Tags |
 | ------ | ------ | ------ | ------ | ------ |
+| medium | [406. queue reconstruction by height](./solutions/406.py) | [link](https://leetcode.com/problems/queue-reconstruction-by-height/description/) |  |  |
 | medium | [435. non overlapping intervals](./solutions/435.py) | [link](https://leetcode.com/problems/non-overlapping-intervals/description/) |  |  |
+| medium | [452. minimum number of arrows to burst balloons](./solutions/452.py) | [link](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/) |  |  |
 | medium | [455. sort colors](./solutions/455.py) | [link](https://leetcode.com/problems/sort-colors/description/) |  | binary-search |
