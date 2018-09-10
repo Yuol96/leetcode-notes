@@ -2,6 +2,8 @@
 ATTENTION
 	- 避免溢出，可使用mid = l + (r-l)//2
 	- 有时候需要考虑item > nums[-1]的情况！！！！！！！
+	- 更要考虑只有一个item的array时使用if l == r-1作为break条件是有问题的！！！！
+		- 可以改成 `l>=r-1`
 """
 
 

@@ -44,3 +44,6 @@ My leetcode notes and solutions
 | easy | [69. sqrtx](./solutions/69.py) | [link](https://leetcode.com/problems/sqrtx/description/) |  |  |
 | easy | [744. find smallest letter greater than target](./solutions/744.py) | [link](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/) |  |  |
 | easy | [540. single element in a sorted array](./solutions/540.py) | [link](https://leetcode.com/problems/single-element-in-a-sorted-array/description/) |  |  |
+| easy | [278. first bad version](./solutions/278.py) | [link](https://leetcode.com/problems/first-bad-version/description/) |  |  |
+| medium | [153. find minimum in rotated sorted array](./solutions/153.py) | [link](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) |  |  |
+| medium | [34. find first and last position of element in sorted array](./solutions/34.py) | [link](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) |  |  |
