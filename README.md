@@ -63,3 +63,9 @@ My leetcode notes and solutions
 | Difficulty | Question | Link | Version | Tags |
 | ------ | ------ | ------ | ------ | ------ |
 | medium | [241. different ways to add parentheses](./solutions/241.py) | [link](https://leetcode.com/problems/different-ways-to-add-parentheses/description/) |  |  |
+## DFS
+
+| Difficulty | Question | Link | Version | Tags |
+| ------ | ------ | ------ | ------ | ------ |
+| easy | [695. max area of island](./solutions/695.py) | [link](https://leetcode.com/problems/max-area-of-island/description/) |  | recursive |
+| medium | [200. number of islands](./solutions/200.py) | [link](https://leetcode.com/problems/number-of-islands/description/) |  | recursive |
