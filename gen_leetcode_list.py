@@ -24,16 +24,26 @@ def parse_single_code(filename,rank):
 		info['name'] = ' '.join(name.split('-'))
 		tmp = filename.name.split('.')
 		if len(tmp) > 2:
-			info['version'] = ' '.join(tmp[1].split('-'))
+			info['version'] = [tmp[1]]
 		info['id'] = int(tmp[0])
 		info['rank'] = rank
 	return info
 
 def parse_all_solutions():
-	infos = []
+	infos_dict = {}
 	for rank,file in enumerate(os.popen('ls -U -t {}'.format(str(cfg.solution_dir))).read().strip().split('\n')):
 		file = cfg.solution_dir/file
-		infos.append(parse_single_code(file,rank))
+		info = parse_single_code(file,rank)
+		infoId = info['id']
+		if infoId in infos_dict:
+			infos_dict[infoId]['version'] += info['version']
+			infos_dict[infoId]['tags'] = list(set(infos_dict[infoId]['tags']+info['tags']))
+			infos_dict[infoId]['category'] = list(set(infos_dict[infoId]['category']+info['category']))
+			infos_dict[infoId]['rank'] = info['rank']
+		else :
+			infos_dict[infoId] = info
+
+	infos = list(map(lambda tup: tup[1], infos_dict.items()))
 	infos.sort(key=lambda info: info['rank'], reverse=True)
 	return infos
 
@@ -44,28 +54,21 @@ def gen_list():
 		for category in info['category']:
 			dct[category] = dct.get(category, []) + [info]
 	output = ""
-	st = set()
 	for category,infoList in sorted(list(dct.items()), key=lambda tup: np.mean(list(map(lambda info:info['rank'], tup[1]))) , reverse=True):
-		output += "## {}\n\n".format(category)
-		output += "| Difficulty | Question | Link | Version | Tags |\n"
-		output += "| ------ | ------ | ------ | ------ | ------ |\n"
+		output += "## {}\n".format(category)
+		output += "| Difficulty | Question | Version | Tags |\n"
+		output += "| ------ | ------ | ------ | ------ |\n"
 		for info in infoList:
-			# if info['id'] in st:
-			# 	output += "| "" | "" | "" | {} | {} |\n".format(
-			# 			info.get('version', ''),
-			# 			', '.join(info.get('tags',[])),
-			# 		)
-			# else:
-			version = "" if "version" not in info else ".{}".format(info['version'])
-			path = "./solutions/{}{}.py".format(info['id'],version)
-			output += "| {} | [{}. {}]({}) | [link]({}) | {} | {} |\n".format(
+			if "version" not in info:
+				versionStr = "[solution](./solutions/{}.py)".format(info['id'])
+			else:
+				versionStr = ', '.join(["[{0}](./solutions/{1}.{0}.py)".format(version, info['id']) for version in info['version']])
+			output += "| {} | [{}. {}]({}) | {} | {} |\n".format(
 					info['difficulty'],
-					info['id'], info['name'],  "./solutions/{}.py".format(info['id']),
-					info['link'],
-					info.get('version', ''),
+					info['id'], info['name'], info['link'],
+					versionStr,
 					', '.join(info.get('tags',[])),
 				)
-			st.add(info['id'])
 	with open("leetcode_list.txt",'w') as hd:
 		hd.write(output)
 
