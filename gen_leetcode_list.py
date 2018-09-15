@@ -50,10 +50,11 @@ def parse_all_solutions():
 def gen_list():
 	dct = {}
 	infos = parse_all_solutions()
+	totNum = len(infos)
 	for info in infos:
 		for category in info['category']:
 			dct[category] = dct.get(category, []) + [info]
-	output = ""
+	output = "**{}** questions solved in total\n".format(totNum)
 	for category,infoList in sorted(list(dct.items()), key=lambda tup: np.mean(list(map(lambda info:info['rank'], tup[1]))) , reverse=True):
 		output += "## {}\n".format(category)
 		output += "| Difficulty | Question | Version | Tags |\n"
