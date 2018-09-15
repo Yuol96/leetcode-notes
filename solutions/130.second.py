@@ -3,7 +3,7 @@
     "difficulty": "medium",
     "link": "https://leetcode.com/problems/surrounded-regions/description/",
     "category": ["DFS"],
-    "tags": ["recursive"],
+    "tags": [],
     "questions": []
 }
 """

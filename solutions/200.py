@@ -3,7 +3,7 @@
     "difficulty": "medium",
     "link": "https://leetcode.com/problems/number-of-islands/description/",
     "category": ["DFS"],
-    "tags": ["recursive"],
+    "tags": [],
     "questions": []
 }
 """

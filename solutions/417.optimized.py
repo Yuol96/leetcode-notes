@@ -3,7 +3,7 @@
     "difficulty": "medium",
     "link": "https://leetcode.com/problems/pacific-atlantic-water-flow/description/",
     "category": ["DFS"],
-    "tags": ["recursive","border2center"],
+    "tags": ["border2center"],
     "questions": []
 }
 """
