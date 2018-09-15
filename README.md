@@ -3,7 +3,7 @@
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**40** questions solved in total
+**47** questions solved in total
 ## two pointers
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -69,3 +69,10 @@ My leetcode notes and solutions
 | medium | [257. binary tree paths](https://leetcode.com/problems/binary-tree-paths/description/) | [non-recursive](./solutions/257.non-recursive.py), [recursive](./solutions/257.recursive.py) | binary-tree, backtracking |
 | medium | [46. permutations](https://leetcode.com/problems/permutations/description/) | [solution](./solutions/46.py) | backtracking |
 | medium | [47. permutations ii](https://leetcode.com/problems/permutations-ii/description/) | [sort](./solutions/47.sort.py), [set](./solutions/47.set.py) | backtracking |
+| medium | [77. combinations](https://leetcode.com/problems/combinations/description/) | [solution](./solutions/77.py) | backtracking |
+| medium | [39. combination sum](https://leetcode.com/problems/combination-sum/description/) | [solution](./solutions/39.py) | backtracking |
+| medium | [40. combination sum ii](https://leetcode.com/problems/combination-sum-ii/description/) | [solution](./solutions/40.py) | backtracking |
+| medium | [216. combination sum iii](https://leetcode.com/problems/combination-sum-iii/description/) | [solution](./solutions/216.py) | backtracking |
+| medium | [78. subsets](https://leetcode.com/problems/subsets/description/) | [solution](./solutions/78.py) | backtracking |
+| medium | [90. subsets ii](https://leetcode.com/problems/subsets-ii/description/) | [solution](./solutions/90.py) | backtracking |
+| medium | [131. palindrome partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) | [solution](./solutions/131.py) | backtracking, palindrome |
