@@ -3,7 +3,7 @@
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**49** questions solved in total
+**52** questions solved in total
 ## two pointers
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -17,7 +17,7 @@ My leetcode notes and solutions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
-| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | quick-select, heap |
+| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | heap, quick-select |
 | medium | [347. top k frequent elements](https://leetcode.com/problems/top-k-frequent-elements/description/) | [solution](./solutions/347.py) | topk, bucket-sort |
 | medium | [451. sort characters by frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/) | [solution](./solutions/451.py) | bucket-sort |
 | medium | [75. sort colors](https://leetcode.com/problems/sort-colors/description/) | [solution](./solutions/75.py) | partition, 三向切分快速排序 |
@@ -42,10 +42,6 @@ My leetcode notes and solutions
 | easy | [278. first bad version](https://leetcode.com/problems/first-bad-version/description/) | [solution](./solutions/278.py) |  |
 | medium | [153. find minimum in rotated sorted array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) | [solution](./solutions/153.py) |  |
 | medium | [34. find first and last position of element in sorted array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | [solution](./solutions/34.py) |  |
-## dynamic-programming
-| Difficulty | Question | Version | Tags |
-| ------ | ------ | ------ | ------ |
-| medium | [279. perfect squares](https://leetcode.com/problems/perfect-squares/description/) | [BFS](./solutions/279.BFS.py) |  |
 ## BFS
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -66,7 +62,7 @@ My leetcode notes and solutions
 | medium | [93. restore ip addresses](https://leetcode.com/problems/restore-ip-addresses/description/) | [solution](./solutions/93.py) | backtracking |
 | medium | [17. letter combinations of a phone number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [solution](./solutions/17.py) | backtracking |
 | medium | [79. word search](https://leetcode.com/problems/word-search/description/) | [solution](./solutions/79.py) | backtracking |
-| medium | [257. binary tree paths](https://leetcode.com/problems/binary-tree-paths/description/) | [non-recursive](./solutions/257.non-recursive.py), [recursive](./solutions/257.recursive.py) | binary-tree, backtracking |
+| medium | [257. binary tree paths](https://leetcode.com/problems/binary-tree-paths/description/) | [non-recursive](./solutions/257.non-recursive.py), [recursive](./solutions/257.recursive.py) | backtracking, binary-tree |
 | medium | [46. permutations](https://leetcode.com/problems/permutations/description/) | [solution](./solutions/46.py) | backtracking |
 | medium | [47. permutations ii](https://leetcode.com/problems/permutations-ii/description/) | [sort](./solutions/47.sort.py), [set](./solutions/47.set.py) | backtracking |
 | medium | [77. combinations](https://leetcode.com/problems/combinations/description/) | [solution](./solutions/77.py) | backtracking |
@@ -78,3 +74,10 @@ My leetcode notes and solutions
 | medium | [131. palindrome partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) | [solution](./solutions/131.py) | backtracking, palindrome |
 | hard | [37. sudoku solver](https://leetcode.com/problems/sudoku-solver/description/) | [solution](./solutions/37.py) | backtracking |
 | hard | [51. n queens](https://leetcode.com/problems/n-queens/description/) | [solution](./solutions/51.py) | backtracking |
+## dynamic-programming
+| Difficulty | Question | Version | Tags |
+| ------ | ------ | ------ | ------ |
+| medium | [279. perfect squares](https://leetcode.com/problems/perfect-squares/description/) | [BFS](./solutions/279.BFS.py) |  |
+| easy | [70. climbing stairs](https://leetcode.com/problems/climbing-stairs/description/) | [accumulative](./solutions/70.accumulative.py), [recursive](./solutions/70.recursive.py) | fibonacci |
+| easy | [198. house robber](https://leetcode.com/problems/house-robber/description/) | [third](./solutions/198.third.py), [second](./solutions/198.second.py), [first](./solutions/198.first.py) | fibonacci |
+| medium | [213. house robber ii](https://leetcode.com/problems/house-robber-ii/description/) | [solution](./solutions/213.py) | fibonacci |
