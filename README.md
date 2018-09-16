@@ -3,7 +3,7 @@
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**52** questions solved in total
+**55** questions solved in total
 ## two pointers
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -17,7 +17,7 @@ My leetcode notes and solutions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
-| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | heap, quick-select |
+| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | quick-select, heap |
 | medium | [347. top k frequent elements](https://leetcode.com/problems/top-k-frequent-elements/description/) | [solution](./solutions/347.py) | topk, bucket-sort |
 | medium | [451. sort characters by frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/) | [solution](./solutions/451.py) | bucket-sort |
 | medium | [75. sort colors](https://leetcode.com/problems/sort-colors/description/) | [solution](./solutions/75.py) | partition, 三向切分快速排序 |
@@ -81,3 +81,6 @@ My leetcode notes and solutions
 | easy | [70. climbing stairs](https://leetcode.com/problems/climbing-stairs/description/) | [accumulative](./solutions/70.accumulative.py), [recursive](./solutions/70.recursive.py) | fibonacci |
 | easy | [198. house robber](https://leetcode.com/problems/house-robber/description/) | [third](./solutions/198.third.py), [second](./solutions/198.second.py), [first](./solutions/198.first.py) | fibonacci |
 | medium | [213. house robber ii](https://leetcode.com/problems/house-robber-ii/description/) | [solution](./solutions/213.py) | fibonacci |
+| medium | [64. minimum path sum](https://leetcode.com/problems/minimum-path-sum/description/) | [second](./solutions/64.second.py), [first](./solutions/64.first.py) | matrix-path |
+| medium | [62. unique paths](https://leetcode.com/problems/unique-paths/description/) | [solution](./solutions/62.py) | matrix-path |
+| medium | [53. maximum subarray](https://leetcode.com/problems/maximum-subarray/description/) | [second](./solutions/53.second.py), [first](./solutions/53.first.py) | subarray |
