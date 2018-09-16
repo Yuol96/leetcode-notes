@@ -3,7 +3,7 @@
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**47** questions solved in total
+**49** questions solved in total
 ## two pointers
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -17,7 +17,7 @@ My leetcode notes and solutions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
-| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | heap, quick-select |
+| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | quick-select, heap |
 | medium | [347. top k frequent elements](https://leetcode.com/problems/top-k-frequent-elements/description/) | [solution](./solutions/347.py) | topk, bucket-sort |
 | medium | [451. sort characters by frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/) | [solution](./solutions/451.py) | bucket-sort |
 | medium | [75. sort colors](https://leetcode.com/problems/sort-colors/description/) | [solution](./solutions/75.py) | partition, 三向切分快速排序 |
@@ -62,7 +62,7 @@ My leetcode notes and solutions
 | medium | [200. number of islands](https://leetcode.com/problems/number-of-islands/description/) | [solution](./solutions/200.py) |  |
 | medium | [547. friend circles](https://leetcode.com/problems/friend-circles/description/) | [solution](./solutions/547.py) |  |
 | medium | [130. surrounded regions](https://leetcode.com/problems/surrounded-regions/description/) | [second](./solutions/130.second.py), [first](./solutions/130.first.py) |  |
-| medium | [417. pacific atlantic water flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/) | [optimized](./solutions/417.optimized.py), [backtracking](./solutions/417.backtracking.py) | backtracking, border2center |
+| medium | [417. pacific atlantic water flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/) | [optimized](./solutions/417.optimized.py), [backtracking](./solutions/417.backtracking.py) | border2center, backtracking |
 | medium | [93. restore ip addresses](https://leetcode.com/problems/restore-ip-addresses/description/) | [solution](./solutions/93.py) | backtracking |
 | medium | [17. letter combinations of a phone number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [solution](./solutions/17.py) | backtracking |
 | medium | [79. word search](https://leetcode.com/problems/word-search/description/) | [solution](./solutions/79.py) | backtracking |
@@ -76,3 +76,5 @@ My leetcode notes and solutions
 | medium | [78. subsets](https://leetcode.com/problems/subsets/description/) | [solution](./solutions/78.py) | backtracking |
 | medium | [90. subsets ii](https://leetcode.com/problems/subsets-ii/description/) | [solution](./solutions/90.py) | backtracking |
 | medium | [131. palindrome partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) | [solution](./solutions/131.py) | backtracking, palindrome |
+| hard | [37. sudoku solver](https://leetcode.com/problems/sudoku-solver/description/) | [solution](./solutions/37.py) | backtracking |
+| hard | [51. n queens](https://leetcode.com/problems/n-queens/description/) | [solution](./solutions/51.py) | backtracking |
