@@ -3,7 +3,7 @@
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**55** questions solved in total
+**57** questions solved in total
 ## two pointers
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -17,7 +17,7 @@ My leetcode notes and solutions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
-| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | quick-select, heap |
+| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | heap, quick-select |
 | medium | [347. top k frequent elements](https://leetcode.com/problems/top-k-frequent-elements/description/) | [solution](./solutions/347.py) | topk, bucket-sort |
 | medium | [451. sort characters by frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/) | [solution](./solutions/451.py) | bucket-sort |
 | medium | [75. sort colors](https://leetcode.com/problems/sort-colors/description/) | [solution](./solutions/75.py) | partition, 三向切分快速排序 |
@@ -84,3 +84,5 @@ My leetcode notes and solutions
 | medium | [64. minimum path sum](https://leetcode.com/problems/minimum-path-sum/description/) | [second](./solutions/64.second.py), [first](./solutions/64.first.py) | matrix-path |
 | medium | [62. unique paths](https://leetcode.com/problems/unique-paths/description/) | [solution](./solutions/62.py) | matrix-path |
 | medium | [53. maximum subarray](https://leetcode.com/problems/maximum-subarray/description/) | [second](./solutions/53.second.py), [first](./solutions/53.first.py) | subarray |
+| medium | [413. arithmetic slices](https://leetcode.com/problems/arithmetic-slices/description/) | [solution](./solutions/413.py) | subarray |
+| medium | [343. integer break](https://leetcode.com/problems/integer-break/description/) | [second](./solutions/343.second.py), [first](./solutions/343.first.py) | integer-break |
