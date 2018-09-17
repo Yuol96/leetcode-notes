@@ -69,7 +69,7 @@ def gen_list():
 		for category in info['category']:
 			dct[category] = dct.get(category, []) + [info]
 	output = "# Leetcode Solutions\n"
-	output += "My leetcode notes and solutions\n"
+	output += "My leetcode notes and solutions\n\n"
 	stat = get_statistics(infos)
 	output += "**{}** questions solved in total\n\n**{}** easy questions, **{}** medium questions, and **{}** hard questions\n".format(stat['totalNum'], stat['difficultyCount']['easy'], stat['difficultyCount']['medium'], stat['difficultyCount']['hard'])
 	for category,infoList in sorted(list(dct.items()), key=lambda tup: np.max(list(map(lambda info:info['rank'], tup[1]))) , reverse=True):
