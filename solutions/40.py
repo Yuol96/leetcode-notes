@@ -1,5 +1,6 @@
 """
 {
+    "author": "Yucheng Huang",
     "difficulty": "medium",
     "link": "https://leetcode.com/problems/combination-sum-ii/description/",
     "category": ["DFS"],

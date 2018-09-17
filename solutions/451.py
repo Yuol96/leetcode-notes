@@ -1,6 +1,7 @@
 """
 {
-	"difficulty": "medium",
+	"author": "Yucheng Huang",
+    "difficulty": "medium",
 	"link": "https://leetcode.com/problems/sort-characters-by-frequency/description/",
 	"category": ["sort"],
 	"tags": ["bucket-sort"]

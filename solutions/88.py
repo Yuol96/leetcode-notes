@@ -1,10 +1,11 @@
 """
 {
-	"id": 88,
-	"name": "Merge Sorted Array",
-	"difficulty": "easy",
+	"author": "Yucheng Huang",
+    "difficulty": "easy",
 	"link": "https://leetcode.com/problems/merge-sorted-array/description/",
-	"category": ["two pointers"]
+	"category": ["two pointers"],
+    "tags": []
+
 }
 """
 class Solution:

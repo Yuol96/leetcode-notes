@@ -1,6 +1,7 @@
 """
 {
-	"difficulty": "medium",
+	"author": "Yucheng Huang",
+    "difficulty": "medium",
 	"link": "https://leetcode.com/problems/top-k-frequent-elements/description/",
 	"category": ["sort"],
 	"tags": ["topk","bucket-sort"]

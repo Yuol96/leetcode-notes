@@ -1,5 +1,6 @@
 """
 {
+    "author": "Yucheng Huang",
     "difficulty": "medium",
     "link": "https://leetcode.com/problems/minimum-path-sum/description/",
     "category": ["dynamic-programming"],

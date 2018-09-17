@@ -1,5 +1,6 @@
 """
 {
+    "author": "Yucheng Huang",
     "difficulty": "hard",
     "link": "https://leetcode.com/problems/sudoku-solver/description/",
     "category": ["DFS"],

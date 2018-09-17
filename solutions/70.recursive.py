@@ -1,5 +1,6 @@
 """
 {
+    "author": "Yucheng Huang",
     "difficulty": "easy",
     "link": "https://leetcode.com/problems/climbing-stairs/description/",
     "category": ["dynamic-programming"],

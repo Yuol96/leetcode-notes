@@ -1,6 +1,7 @@
 """
 {
-	"difficulty": "medium",
+	"author": "Yucheng Huang",
+    "difficulty": "medium",
 	"link": "https://leetcode.com/problems/sort-colors/description/",
 	"category": ["greedy"],
 	"tags": ["binary-search"]

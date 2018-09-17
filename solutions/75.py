@@ -1,6 +1,7 @@
 """
 {
-	"difficulty": "medium",
+	"author": "Yucheng Huang",
+    "difficulty": "medium",
 	"link": "https://leetcode.com/problems/sort-colors/description/",
 	"category": ["sort"],
 	"tags": ["partition","三向切分快速排序"]

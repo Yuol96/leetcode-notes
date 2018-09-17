@@ -1,5 +1,6 @@
 """
 {
+    "author": "Yucheng Huang",
     "difficulty": "easy",
     "link": "https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/",
     "category": ["binary-search"],

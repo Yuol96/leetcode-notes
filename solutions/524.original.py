@@ -1,6 +1,7 @@
 """
 {
-	"difficulty": "medium",
+	"author": "Yucheng Huang",
+    "difficulty": "medium",
 	"link": "https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/description/",
 	"category": ["two pointers"],
     "tags": []

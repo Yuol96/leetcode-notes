@@ -1,5 +1,6 @@
 """
 {
+    "author": "Yucheng Huang",
     "difficulty": "easy",
     "link": "https://leetcode.com/problems/max-area-of-island/description/",
     "category": ["DFS"],

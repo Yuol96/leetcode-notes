@@ -1,5 +1,6 @@
 """
 {
+    "author": "Yucheng Huang",
     "difficulty": "easy",
     "link": "https://leetcode.com/problems/single-element-in-a-sorted-array/description/",
     "category": ["binary-search"],

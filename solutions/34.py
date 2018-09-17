@@ -1,5 +1,6 @@
 """
 {
+    "author": "Yucheng Huang",
     "difficulty": "medium",
     "link": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/",
     "category": ["binary-search"],

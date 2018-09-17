@@ -1,5 +1,6 @@
 """
 {
+    "author": "Yucheng Huang",
     "difficulty": "medium",
     "link": "https://leetcode.com/problems/subsets-ii/description/",
     "category": ["DFS"],

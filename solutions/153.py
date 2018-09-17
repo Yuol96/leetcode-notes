@@ -1,5 +1,6 @@
 """
 {
+    "author": "Yucheng Huang",
     "difficulty": "medium",
     "link": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/",
     "category": ["binary-search"],

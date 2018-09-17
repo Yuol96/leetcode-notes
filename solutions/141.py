@@ -1,7 +1,6 @@
 """
 {
-	"id": 141,
-	"name": "Linked List Cycle",
+	"author": "Yucheng Huang",
 	"difficulty": "easy",
 	"link": "https://leetcode.com/problems/linked-list-cycle/description/",
 	"category": ["two pointers"],

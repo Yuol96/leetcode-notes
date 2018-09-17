@@ -1,5 +1,6 @@
 """
 {
+    "author": "Yucheng Huang",
     "difficulty": "easy",
     "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/",
     "category": ["greedy"],

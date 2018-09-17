@@ -1,7 +1,6 @@
 """
 {
-	"id": 167,
-	"name": "Two Sum II - Input array is sorted",
+	"author": "Yucheng Huang",
 	"difficulty": "easy",
 	"link": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/",
 	"category": ["two pointers"]

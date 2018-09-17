@@ -1,10 +1,10 @@
 """
 {
-	"id": 345,
-	"name": "Reverse Vowels of a String",
-	"difficulty": "easy",
+	"author": "Yucheng Huang",
+    "difficulty": "easy",
 	"link": "https://leetcode.com/problems/reverse-vowels-of-a-string/description/",
-	"category": ["two pointers"]
+	"category": ["two pointers"],
+    "tags": []
 }
 """
 class Solution:

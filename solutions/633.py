@@ -1,10 +1,10 @@
 """
 {
-	"id": 633,
-	"name": "Sum of Square Numbers",
-	"difficulty": "easy",
+	"author": "Yucheng Huang",
+    "difficulty": "easy",
 	"link": "https://leetcode.com/problems/sum-of-square-numbers/description/",
-	"category": ["two pointers"]
+	"category": ["two pointers"],
+    "tags": []
 }
 """
 class Solution:

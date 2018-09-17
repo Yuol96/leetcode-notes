@@ -1,6 +1,7 @@
 """
 {
-	"id": 524,
+	"author": "Danqi Chang",
+    "id": 524,
 	"name": "Longest Word in Dictionary through Deleting",
 	"difficulty": "medium",
 	"link": "https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/description/",

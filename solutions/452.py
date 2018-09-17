@@ -1,6 +1,7 @@
 """
 {
-	"difficulty": "medium",
+	"author": "Yucheng Huang",
+    "difficulty": "medium",
 	"link": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/",
 	"category": ["greedy"],
 	"tags": [],

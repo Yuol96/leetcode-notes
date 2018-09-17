@@ -1,6 +1,7 @@
 """
 {
-	"difficulty": "medium",
+	"author": "Yucheng Huang",
+    "difficulty": "medium",
 	"link": "https://leetcode.com/problems/queue-reconstruction-by-height/description/",
 	"category": ["greedy"],
 	"tags": [],

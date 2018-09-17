@@ -1,6 +1,7 @@
 """
 {
-	"id": 680,
+	"author": "Yucheng Huang",
+    "id": 680,
 	"name": "Valid Palindrome II",
 	"difficulty": "easy",
 	"link": "https://leetcode.com/problems/valid-palindrome-ii/description/",
