@@ -4,9 +4,16 @@
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**58** questions solved in total
+**59** questions solved in total
 
-**16** easy questions, **40** medium questions, and **2** hard questions
+**16** easy questions, **41** medium questions, and **2** hard questions
+## sort
+| Difficulty | Question | Version | Tags |
+| ------ | ------ | ------ | ------ |
+| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | quick-select, heap |
+| medium | [347. top k frequent elements](https://leetcode.com/problems/top-k-frequent-elements/description/) | [solution](./solutions/347.py) | topk, bucket-sort |
+| medium | [451. sort characters by frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/) | [solution](./solutions/451.py) | bucket-sort |
+| medium | [75. sort colors](https://leetcode.com/problems/sort-colors/description/) | [solution](./solutions/75.py) | partition, 三向切分快速排序 |
 ## two pointers
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -17,13 +24,6 @@ My leetcode notes and solutions
 | easy | [88. merge sorted array](https://leetcode.com/problems/merge-sorted-array/description/) | [solution](./solutions/88.py) |  |
 | easy | [141. linked list cycle](https://leetcode.com/problems/linked-list-cycle/description/) | [solution](./solutions/141.py) | linked-list |
 | medium | [524. longest word in dictionary through deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/description/) | [original](./solutions/524.original.py), [sorted](./solutions/524.sorted.py) |  |
-## sort
-| Difficulty | Question | Version | Tags |
-| ------ | ------ | ------ | ------ |
-| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | heap, quick-select |
-| medium | [347. top k frequent elements](https://leetcode.com/problems/top-k-frequent-elements/description/) | [solution](./solutions/347.py) | topk, bucket-sort |
-| medium | [451. sort characters by frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/) | [solution](./solutions/451.py) | bucket-sort |
-| medium | [75. sort colors](https://leetcode.com/problems/sort-colors/description/) | [solution](./solutions/75.py) | partition, 三向切分快速排序 |
 ## greedy
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -45,25 +45,6 @@ My leetcode notes and solutions
 | easy | [278. first bad version](https://leetcode.com/problems/first-bad-version/description/) | [solution](./solutions/278.py) |  |
 | medium | [153. find minimum in rotated sorted array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) | [solution](./solutions/153.py) |  |
 | medium | [34. find first and last position of element in sorted array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | [solution](./solutions/34.py) |  |
-## dynamic-programming
-| Difficulty | Question | Version | Tags |
-| ------ | ------ | ------ | ------ |
-| medium | [279. perfect squares](https://leetcode.com/problems/perfect-squares/description/) | [DP](./solutions/279.DP.py), [BFS](./solutions/279.BFS.py) | integer-break |
-| easy | [70. climbing stairs](https://leetcode.com/problems/climbing-stairs/description/) | [accumulative](./solutions/70.accumulative.py), [recursive](./solutions/70.recursive.py) | fibonacci |
-| easy | [198. house robber](https://leetcode.com/problems/house-robber/description/) | [third](./solutions/198.third.py), [second](./solutions/198.second.py), [first](./solutions/198.first.py) | fibonacci |
-| medium | [213. house robber ii](https://leetcode.com/problems/house-robber-ii/description/) | [solution](./solutions/213.py) | fibonacci |
-| medium | [64. minimum path sum](https://leetcode.com/problems/minimum-path-sum/description/) | [second](./solutions/64.second.py), [first](./solutions/64.first.py) | matrix-path |
-| medium | [62. unique paths](https://leetcode.com/problems/unique-paths/description/) | [solution](./solutions/62.py) | matrix-path |
-| medium | [53. maximum subarray](https://leetcode.com/problems/maximum-subarray/description/) | [second](./solutions/53.second.py), [first](./solutions/53.first.py) | subarray |
-| medium | [413. arithmetic slices](https://leetcode.com/problems/arithmetic-slices/description/) | [solution](./solutions/413.py) | subarray |
-| medium | [343. integer break](https://leetcode.com/problems/integer-break/description/) | [second](./solutions/343.second.py), [first](./solutions/343.first.py) | integer-break |
-| medium | [91. decode ways](https://leetcode.com/problems/decode-ways/description/) | [solution](./solutions/91.py) | integer-break |
-## BFS
-| Difficulty | Question | Version | Tags |
-| ------ | ------ | ------ | ------ |
-| medium | [279. perfect squares](https://leetcode.com/problems/perfect-squares/description/) | [DP](./solutions/279.DP.py), [BFS](./solutions/279.BFS.py) | integer-break |
-| medium | [127. word ladder](https://leetcode.com/problems/word-ladder/description/) | [solution](./solutions/127.py) |  |
-| medium | [91. decode ways](https://leetcode.com/problems/decode-ways/description/) | [solution](./solutions/91.py) | integer-break |
 ## divide-and-conquer
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -91,3 +72,23 @@ My leetcode notes and solutions
 | medium | [131. palindrome partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) | [solution](./solutions/131.py) | backtracking, palindrome |
 | hard | [37. sudoku solver](https://leetcode.com/problems/sudoku-solver/description/) | [solution](./solutions/37.py) | backtracking |
 | hard | [51. n queens](https://leetcode.com/problems/n-queens/description/) | [solution](./solutions/51.py) | backtracking |
+## BFS
+| Difficulty | Question | Version | Tags |
+| ------ | ------ | ------ | ------ |
+| medium | [279. perfect squares](https://leetcode.com/problems/perfect-squares/description/) | [DP](./solutions/279.DP.py), [BFS](./solutions/279.BFS.py) | integer-break |
+| medium | [127. word ladder](https://leetcode.com/problems/word-ladder/description/) | [solution](./solutions/127.py) |  |
+| medium | [91. decode ways](https://leetcode.com/problems/decode-ways/description/) | [solution](./solutions/91.py) | integer-break |
+## dynamic-programming
+| Difficulty | Question | Version | Tags |
+| ------ | ------ | ------ | ------ |
+| medium | [279. perfect squares](https://leetcode.com/problems/perfect-squares/description/) | [DP](./solutions/279.DP.py), [BFS](./solutions/279.BFS.py) | integer-break |
+| easy | [70. climbing stairs](https://leetcode.com/problems/climbing-stairs/description/) | [accumulative](./solutions/70.accumulative.py), [recursive](./solutions/70.recursive.py) | fibonacci |
+| easy | [198. house robber](https://leetcode.com/problems/house-robber/description/) | [third](./solutions/198.third.py), [second](./solutions/198.second.py), [first](./solutions/198.first.py) | fibonacci |
+| medium | [213. house robber ii](https://leetcode.com/problems/house-robber-ii/description/) | [solution](./solutions/213.py) | fibonacci |
+| medium | [64. minimum path sum](https://leetcode.com/problems/minimum-path-sum/description/) | [second](./solutions/64.second.py), [first](./solutions/64.first.py) | matrix-path |
+| medium | [62. unique paths](https://leetcode.com/problems/unique-paths/description/) | [solution](./solutions/62.py) | matrix-path |
+| medium | [53. maximum subarray](https://leetcode.com/problems/maximum-subarray/description/) | [second](./solutions/53.second.py), [first](./solutions/53.first.py) | subarray |
+| medium | [413. arithmetic slices](https://leetcode.com/problems/arithmetic-slices/description/) | [solution](./solutions/413.py) | subarray |
+| medium | [343. integer break](https://leetcode.com/problems/integer-break/description/) | [second](./solutions/343.second.py), [first](./solutions/343.first.py) | integer-break |
+| medium | [91. decode ways](https://leetcode.com/problems/decode-ways/description/) | [solution](./solutions/91.py) | integer-break |
+| medium | [300. longest increasing subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/) | [binary-search-replace](./solutions/300.binary-search-replace.py), [DP](./solutions/300.DP.py), [original](./solutions/300.original.py) | subsequence |
