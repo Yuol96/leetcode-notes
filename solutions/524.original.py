@@ -1,10 +1,9 @@
 """
 {
-	"id": 524,
-	"name": "Longest Word in Dictionary through Deleting",
 	"difficulty": "medium",
 	"link": "https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/description/",
-	"category": ["two pointers"]
+	"category": ["two pointers"],
+    "tags": []
 }
 """
 class Solution:
