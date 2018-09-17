@@ -15,6 +15,8 @@ def parse_single_code(filename,rank):
 		jsonStr = text[start:end]
 		try:
 			info = json.loads(jsonStr)
+			for item in ['link','difficulty','category']:
+				item in info
 		except:
 			print(filename)
 			print(jsonStr)
@@ -27,6 +29,8 @@ def parse_single_code(filename,rank):
 			info['version'] = [tmp[1]]
 		info['id'] = int(tmp[0])
 		info['rank'] = rank
+		if "author" not in info:
+			info['author'] = "Yucheng Huang"
 	return info
 
 def parse_all_solutions():
@@ -47,6 +51,16 @@ def parse_all_solutions():
 	infos.sort(key=lambda info: info['rank'], reverse=True)
 	return infos
 
+def get_statistics(infos):
+	difficultyCount = {}
+	for info in infos:
+		difficultyCount[info['difficulty']] = difficultyCount.get(info['difficulty'], 0) + 1 
+	stat = {
+		"totalNum": len(infos),
+		"difficultyCount": difficultyCount,
+	}
+	return stat
+
 def gen_list():
 	dct = {}
 	infos = parse_all_solutions()
@@ -54,8 +68,11 @@ def gen_list():
 	for info in infos:
 		for category in info['category']:
 			dct[category] = dct.get(category, []) + [info]
-	output = "**{}** questions solved in total\n".format(totNum)
-	for category,infoList in sorted(list(dct.items()), key=lambda tup: np.mean(list(map(lambda info:info['rank'], tup[1]))) , reverse=True):
+	output = "# Leetcode Solutions\n"
+	output += "My leetcode notes and solutions\n"
+	stat = get_statistics(infos)
+	output += "**{}** questions solved in total\n\n**{}** easy questions, **{}** medium questions, and **{}** hard questions\n".format(stat['totalNum'], stat['difficultyCount']['easy'], stat['difficultyCount']['medium'], stat['difficultyCount']['hard'])
+	for category,infoList in sorted(list(dct.items()), key=lambda tup: np.max(list(map(lambda info:info['rank'], tup[1]))) , reverse=True):
 		output += "## {}\n".format(category)
 		output += "| Difficulty | Question | Version | Tags |\n"
 		output += "| ------ | ------ | ------ | ------ |\n"
