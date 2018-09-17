@@ -72,7 +72,7 @@ def gen_list():
 	output += "My leetcode notes and solutions\n\n"
 	stat = get_statistics(infos)
 	output += "**{}** questions solved in total\n\n**{}** easy questions, **{}** medium questions, and **{}** hard questions\n".format(stat['totalNum'], stat['difficultyCount']['easy'], stat['difficultyCount']['medium'], stat['difficultyCount']['hard'])
-	for category,infoList in sorted(list(dct.items()), key=lambda tup: np.max(list(map(lambda info:info['rank'], tup[1]))) , reverse=True):
+	for category,infoList in sorted(list(dct.items()), key=lambda tup: np.mean(list(map(lambda info:info['rank'], tup[1]))) , reverse=True):
 		output += "## {}\n".format(category)
 		output += "| Difficulty | Question | Version | Tags |\n"
 		output += "| ------ | ------ | ------ | ------ |\n"
