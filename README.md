@@ -4,9 +4,9 @@
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**60** questions solved in total
+**61** questions solved in total
 
-**16** easy questions, **42** medium questions, and **2** hard questions
+**16** easy questions, **43** medium questions, and **2** hard questions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -94,3 +94,4 @@ My leetcode notes and solutions
 | medium | [91. decode ways](https://leetcode.com/problems/decode-ways/description/) | [solution](./solutions/91.py) | integer-break |
 | medium | [300. longest increasing subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/) | [binary-search-replace](./solutions/300.binary-search-replace.py), [DP](./solutions/300.DP.py), [original](./solutions/300.original.py) | subsequence |
 | medium | [646. maximum length of pair chain](https://leetcode.com/problems/maximum-length-of-pair-chain/description/) | [DP](./solutions/646.DP.py), [greedy](./solutions/646.greedy.py) | overlapping-intervals |
+| medium | [376. wiggle subsequence](https://leetcode.com/problems/wiggle-subsequence/description/) | [solution](./solutions/376.py) | subsequence |
