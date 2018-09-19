@@ -3,7 +3,7 @@
     "author": "Yucheng Huang",
     "difficulty": "medium",
     "link": "https://leetcode.com/problems/partition-equal-subset-sum/description/",
-    "beats": 0.1706,
+    "beats": 0.2440,
     "category": ["dynamic-programming"],
     "tags": ["0/1knapsack"],
     "questions": []
