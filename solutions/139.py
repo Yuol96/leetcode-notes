@@ -5,7 +5,7 @@
     "link": "https://leetcode.com/problems/word-break/description/",
     "beats": 0.1114,
     "category": ["dynamic-programming"],
-    "tags": [],
+    "tags": ["完全背包"],
     "questions": []
 }
 """
@@ -31,6 +31,7 @@ class Solution:
 思路
    - dp[i] = index小于等于i的substring能否word break
    - 复杂度 O(N^2)
+   - 另一种思路是用完全背包法
 """
 
 class Solution:

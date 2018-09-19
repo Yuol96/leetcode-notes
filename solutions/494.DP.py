@@ -5,7 +5,7 @@
     "link": "https://leetcode.com/problems/target-sum/description/",
     "beats": 0.1034,
     "category": ["dynamic-programming","DFS"],
-    "tags": ["0/1knapsack"],
+    "tags": ["knapsack"],
     "questions": []
 }
 """

@@ -5,7 +5,7 @@
     "link": "https://leetcode.com/problems/ones-and-zeroes/description/",
     "beats": -1,
     "category": ["dynamic-programming"],
-    "tags": ["0/1knapsack"],
+    "tags": ["knapsack"],
     "questions": ["WHY NOT PASS???"]
 }
 """
@@ -34,16 +34,17 @@ class Solution:
         :type n: int
         :rtype: int
         """
-        lastdp = [[0 for __ in range(n+1)] for __ in range(m+1)]
-        for i,s in enumerate(strs):
-            dp = [[0 for __ in range(n+1)] for __ in range(m+1)]
-            num_zeros, num_ones = self.parseStr(s)
-            for j in range(m+1):
-                for k in range(n+1):
-                    if j>=num_zeros and k>=num_ones:
-                        dp[j][k] = max(lastdp[j][k], lastdp[j-num_zeros][k-num_ones] + 1)
-                    else :
-                        dp[j][k] = lastdp[j][k]
-            lastdp = dp
-        return lastdp[m][n]
+        self.parsedStr = []
+        for s in strs:
+            self.parsedStr.append(self.parseStr(s))
+        
+        dp = [[0 for __ in range(n+1)] for __ in range(m+1)]
+        i = 0
+        while i < len(self.parsedStr):
+            num_zeros, num_ones = self.parsedStr[i]
+            for j in range(m, num_zeros-1, -1):
+                for k in range(n, num_ones-1, -1):
+                    dp[j][k] = max(dp[j][k], dp[j-num_zeros][k-num_ones] + 1)
+            i+=1
+        return dp[m][n]
                     

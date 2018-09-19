@@ -5,7 +5,7 @@
     "link": "https://leetcode.com/problems/partition-equal-subset-sum/description/",
     "beats": 0.0201,
     "category": ["dynamic-programming"],
-    "tags": ["0/1knapsack"],
+    "tags": ["knapsack"],
     "questions": []
 }
 """
