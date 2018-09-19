@@ -4,9 +4,9 @@
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**62** questions solved in total
+**65** questions solved in total
 
-**16** easy questions, **44** medium questions, and **2** hard questions
+**16** easy questions, **47** medium questions, and **2** hard questions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -50,6 +50,12 @@ My leetcode notes and solutions
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
 | medium | [241. different ways to add parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/description/) | [solution](./solutions/241.py) |  |
+## BFS
+| Difficulty | Question | Version | Tags |
+| ------ | ------ | ------ | ------ |
+| medium | [279. perfect squares](https://leetcode.com/problems/perfect-squares/description/) | [DP](./solutions/279.DP.py), [BFS](./solutions/279.BFS.py) | integer-break |
+| medium | [127. word ladder](https://leetcode.com/problems/word-ladder/description/) | [solution](./solutions/127.py) |  |
+| medium | [91. decode ways](https://leetcode.com/problems/decode-ways/description/) | [solution](./solutions/91.py) | integer-break |
 ## DFS
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -73,12 +79,7 @@ My leetcode notes and solutions
 | medium | [131. palindrome partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) | [solution](./solutions/131.py) | backtracking, palindrome |
 | hard | [37. sudoku solver](https://leetcode.com/problems/sudoku-solver/description/) | [solution](./solutions/37.py) | backtracking |
 | hard | [51. n queens](https://leetcode.com/problems/n-queens/description/) | [solution](./solutions/51.py) | backtracking |
-## BFS
-| Difficulty | Question | Version | Tags |
-| ------ | ------ | ------ | ------ |
-| medium | [279. perfect squares](https://leetcode.com/problems/perfect-squares/description/) | [DP](./solutions/279.DP.py), [BFS](./solutions/279.BFS.py) | integer-break |
-| medium | [127. word ladder](https://leetcode.com/problems/word-ladder/description/) | [solution](./solutions/127.py) |  |
-| medium | [91. decode ways](https://leetcode.com/problems/decode-ways/description/) | [solution](./solutions/91.py) | integer-break |
+| medium | [494. target sum](https://leetcode.com/problems/target-sum/description/) | [DFS](./solutions/494.DFS.py), [DP](./solutions/494.DP.py) | 0/1knapsack |
 ## dynamic-programming
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -96,3 +97,6 @@ My leetcode notes and solutions
 | medium | [646. maximum length of pair chain](https://leetcode.com/problems/maximum-length-of-pair-chain/description/) | [DP](./solutions/646.DP.py), [greedy](./solutions/646.greedy.py) | overlapping-intervals |
 | medium | [376. wiggle subsequence](https://leetcode.com/problems/wiggle-subsequence/description/) | [solution](./solutions/376.py) | subsequence |
 | medium | [416. partition equal subset sum](https://leetcode.com/problems/partition-equal-subset-sum/description/) | [space-optimized](./solutions/416.space-optimized.py), [first](./solutions/416.first.py) | 0/1knapsack |
+| medium | [494. target sum](https://leetcode.com/problems/target-sum/description/) | [DFS](./solutions/494.DFS.py), [DP](./solutions/494.DP.py) | 0/1knapsack |
+| medium | [139. word break](https://leetcode.com/problems/word-break/description/) | [solution](./solutions/139.py) |  |
+| medium | [474. ones and zeroes](https://leetcode.com/problems/ones-and-zeroes/description/) | [solution](./solutions/474.py) | 0/1knapsack |
