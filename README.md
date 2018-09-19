@@ -4,9 +4,9 @@
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**66** questions solved in total
+**67** questions solved in total
 
-**16** easy questions, **48** medium questions, and **2** hard questions
+**16** easy questions, **49** medium questions, and **2** hard questions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -67,7 +67,7 @@ My leetcode notes and solutions
 | medium | [93. restore ip addresses](https://leetcode.com/problems/restore-ip-addresses/description/) | [solution](./solutions/93.py) | backtracking |
 | medium | [17. letter combinations of a phone number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [solution](./solutions/17.py) | backtracking |
 | medium | [79. word search](https://leetcode.com/problems/word-search/description/) | [solution](./solutions/79.py) | backtracking |
-| medium | [257. binary tree paths](https://leetcode.com/problems/binary-tree-paths/description/) | [non-recursive](./solutions/257.non-recursive.py), [recursive](./solutions/257.recursive.py) | backtracking, binary-tree |
+| medium | [257. binary tree paths](https://leetcode.com/problems/binary-tree-paths/description/) | [non-recursive](./solutions/257.non-recursive.py), [recursive](./solutions/257.recursive.py) | binary-tree, backtracking |
 | medium | [46. permutations](https://leetcode.com/problems/permutations/description/) | [solution](./solutions/46.py) | backtracking |
 | medium | [47. permutations ii](https://leetcode.com/problems/permutations-ii/description/) | [sort](./solutions/47.sort.py), [set](./solutions/47.set.py) | backtracking |
 | medium | [77. combinations](https://leetcode.com/problems/combinations/description/) | [solution](./solutions/77.py) | backtracking |
@@ -101,3 +101,4 @@ My leetcode notes and solutions
 | medium | [139. word break](https://leetcode.com/problems/word-break/description/) | [solution](./solutions/139.py) | 完全背包 |
 | medium | [474. ones and zeroes](https://leetcode.com/problems/ones-and-zeroes/description/) | [solution](./solutions/474.py) | knapsack |
 | medium | [322. coin change](https://leetcode.com/problems/coin-change/description/) | [solution](./solutions/322.py) | knapsack, 完全背包 |
+| medium | [377. combination sum iv](https://leetcode.com/problems/combination-sum-iv/description/) | [solution](./solutions/377.py) | knapsack, 完全背包 |

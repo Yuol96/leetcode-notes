@@ -14,6 +14,7 @@
 思路
 	- 完全背包问题（物品个数无限）
 	- 需要把物品的循环放在最里面
+    - 注意物品list需要排序之后才能用if j<coin: break
 """
 
 class Solution:
