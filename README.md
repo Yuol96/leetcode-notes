@@ -32,13 +32,13 @@ I will keep on updating this repo and working on more leetcode questions. You ca
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**75** questions solved in total
+**77** questions solved in total
 
-**16** easy questions, **55** medium questions, and **4** hard questions
+**18** easy questions, **55** medium questions, and **4** hard questions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
-| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | heap, quick-select |
+| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | quick-select, heap |
 | medium | [347. top k frequent elements](https://leetcode.com/problems/top-k-frequent-elements/description/) | [solution](./solutions/347.py) | topk, bucket-sort |
 | medium | [451. sort characters by frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/) | [solution](./solutions/451.py) | bucket-sort |
 | medium | [75. sort colors](https://leetcode.com/problems/sort-colors/description/) | [solution](./solutions/75.py) | partition, 三向切分快速排序 |
@@ -91,11 +91,11 @@ My leetcode notes and solutions
 | medium | [200. number of islands](https://leetcode.com/problems/number-of-islands/description/) | [solution](./solutions/200.py) |  |
 | medium | [547. friend circles](https://leetcode.com/problems/friend-circles/description/) | [solution](./solutions/547.py) |  |
 | medium | [130. surrounded regions](https://leetcode.com/problems/surrounded-regions/description/) | [second](./solutions/130.second.py), [first](./solutions/130.first.py) |  |
-| medium | [417. pacific atlantic water flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/) | [optimized](./solutions/417.optimized.py), [backtracking](./solutions/417.backtracking.py) | border2center, backtracking |
+| medium | [417. pacific atlantic water flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/) | [optimized](./solutions/417.optimized.py), [backtracking](./solutions/417.backtracking.py) | backtracking, border2center |
 | medium | [93. restore ip addresses](https://leetcode.com/problems/restore-ip-addresses/description/) | [solution](./solutions/93.py) | backtracking |
 | medium | [17. letter combinations of a phone number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [solution](./solutions/17.py) | backtracking |
 | medium | [79. word search](https://leetcode.com/problems/word-search/description/) | [solution](./solutions/79.py) | backtracking |
-| medium | [257. binary tree paths](https://leetcode.com/problems/binary-tree-paths/description/) | [non-recursive](./solutions/257.non-recursive.py), [recursive](./solutions/257.recursive.py) | binary-tree, backtracking |
+| medium | [257. binary tree paths](https://leetcode.com/problems/binary-tree-paths/description/) | [non-recursive](./solutions/257.non-recursive.py), [recursive](./solutions/257.recursive.py) | backtracking, binary-tree |
 | medium | [46. permutations](https://leetcode.com/problems/permutations/description/) | [solution](./solutions/46.py) | backtracking |
 | medium | [47. permutations ii](https://leetcode.com/problems/permutations-ii/description/) | [sort](./solutions/47.sort.py), [set](./solutions/47.set.py) | backtracking |
 | medium | [77. combinations](https://leetcode.com/problems/combinations/description/) | [solution](./solutions/77.py) | backtracking |
@@ -138,3 +138,8 @@ My leetcode notes and solutions
 | medium | [583. delete operation for two strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/) | [solution](./solutions/583.py) | string |
 | medium | [72. edit distance](https://leetcode.com/problems/edit-distance/description/) | [solution](./solutions/72.py) | string |
 | medium | [650. 2 keys keyboard](https://leetcode.com/problems/2-keys-keyboard/description/) | [solution](./solutions/650.py) | string |
+## math
+| Difficulty | Question | Version | Tags |
+| ------ | ------ | ------ | ------ |
+| easy | [204. count primes](https://leetcode.com/problems/count-primes/description/) | [solution](./solutions/204.py) | prime |
+| easy | [504. base 7](https://leetcode.com/problems/base-7/description/) | [second](./solutions/504.second.py), [first](./solutions/504.first.py) | base-conversion |
