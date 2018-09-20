@@ -4,9 +4,9 @@
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**67** questions solved in total
+**69** questions solved in total
 
-**16** easy questions, **49** medium questions, and **2** hard questions
+**16** easy questions, **51** medium questions, and **2** hard questions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -63,7 +63,7 @@ My leetcode notes and solutions
 | medium | [200. number of islands](https://leetcode.com/problems/number-of-islands/description/) | [solution](./solutions/200.py) |  |
 | medium | [547. friend circles](https://leetcode.com/problems/friend-circles/description/) | [solution](./solutions/547.py) |  |
 | medium | [130. surrounded regions](https://leetcode.com/problems/surrounded-regions/description/) | [second](./solutions/130.second.py), [first](./solutions/130.first.py) |  |
-| medium | [417. pacific atlantic water flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/) | [optimized](./solutions/417.optimized.py), [backtracking](./solutions/417.backtracking.py) | backtracking, border2center |
+| medium | [417. pacific atlantic water flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/) | [optimized](./solutions/417.optimized.py), [backtracking](./solutions/417.backtracking.py) | border2center, backtracking |
 | medium | [93. restore ip addresses](https://leetcode.com/problems/restore-ip-addresses/description/) | [solution](./solutions/93.py) | backtracking |
 | medium | [17. letter combinations of a phone number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [solution](./solutions/17.py) | backtracking |
 | medium | [79. word search](https://leetcode.com/problems/word-search/description/) | [solution](./solutions/79.py) | backtracking |
@@ -102,3 +102,5 @@ My leetcode notes and solutions
 | medium | [474. ones and zeroes](https://leetcode.com/problems/ones-and-zeroes/description/) | [solution](./solutions/474.py) | knapsack |
 | medium | [322. coin change](https://leetcode.com/problems/coin-change/description/) | [solution](./solutions/322.py) | knapsack, 完全背包 |
 | medium | [377. combination sum iv](https://leetcode.com/problems/combination-sum-iv/description/) | [solution](./solutions/377.py) | knapsack, 完全背包 |
+| medium | [309. best time to buy and sell stock with cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/) | [space-optimized](./solutions/309.space-optimized.py), [first](./solutions/309.first.py) | state-machine |
+| medium | [714. best time to buy and sell stock with transaction fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/) | [solution](./solutions/714.py) | state-machine |
