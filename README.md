@@ -1,12 +1,40 @@
-[TOC] 
+# Introduction
 
+Welcome!
 
+In order to hone my algorithm skills, I have been continuing working on leetcode questions since August 2018. 
+To put more focus on algorithm, I choose python3 as my programming language, since it seems to be easier to implement an idea.
+Most of the questions have a specific `.py` file under `solutions/` folder, while some of questions have multiple versions of solutions. 
+
+If you are interested in this repo, feel free to fork it and put your solutions to it. 
+Whenever you want to add a new python solution, you need first create a `<id-of-leetcode-question>[.<version-name>].py` file under `solutions/` folder.
+You need to prepend a multi-line comment to your code. Typically it seems like:
+```python
+"""
+{
+    "author": "Yucheng Huang",
+    "difficulty": "medium",
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/",
+    "beats": 0.9000,
+    "category": ["dynamic-programming"],
+    "tags": ["your-whatever-tag-name"],
+    "questions": []
+}
+"""
+```
+Then, you just need to put your code below the header. You may also want to add some illustrating comments to your code.
+Finally, save your file and input `make` command into your command line tool under the root dir of this repo.
+This command collects all the information within the headers of all solutions and regenerate the README.md file.
+
+You should note that without prepending a proper header to your solution files, the `make` command might fail.
+
+I will keep on updating this repo and working on more leetcode questions. You can add this repo into your watchlist so that you will get notified whenever there's an new commit.
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**69** questions solved in total
+**70** questions solved in total
 
-**16** easy questions, **51** medium questions, and **2** hard questions
+**16** easy questions, **52** medium questions, and **2** hard questions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -67,7 +95,7 @@ My leetcode notes and solutions
 | medium | [93. restore ip addresses](https://leetcode.com/problems/restore-ip-addresses/description/) | [solution](./solutions/93.py) | backtracking |
 | medium | [17. letter combinations of a phone number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [solution](./solutions/17.py) | backtracking |
 | medium | [79. word search](https://leetcode.com/problems/word-search/description/) | [solution](./solutions/79.py) | backtracking |
-| medium | [257. binary tree paths](https://leetcode.com/problems/binary-tree-paths/description/) | [non-recursive](./solutions/257.non-recursive.py), [recursive](./solutions/257.recursive.py) | binary-tree, backtracking |
+| medium | [257. binary tree paths](https://leetcode.com/problems/binary-tree-paths/description/) | [non-recursive](./solutions/257.non-recursive.py), [recursive](./solutions/257.recursive.py) | backtracking, binary-tree |
 | medium | [46. permutations](https://leetcode.com/problems/permutations/description/) | [solution](./solutions/46.py) | backtracking |
 | medium | [47. permutations ii](https://leetcode.com/problems/permutations-ii/description/) | [sort](./solutions/47.sort.py), [set](./solutions/47.set.py) | backtracking |
 | medium | [77. combinations](https://leetcode.com/problems/combinations/description/) | [solution](./solutions/77.py) | backtracking |
@@ -104,3 +132,4 @@ My leetcode notes and solutions
 | medium | [377. combination sum iv](https://leetcode.com/problems/combination-sum-iv/description/) | [solution](./solutions/377.py) | knapsack, 完全背包 |
 | medium | [309. best time to buy and sell stock with cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/) | [space-optimized](./solutions/309.space-optimized.py), [first](./solutions/309.first.py) | state-machine |
 | medium | [714. best time to buy and sell stock with transaction fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/) | [solution](./solutions/714.py) | state-machine |
+| medium | [121. best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | [solution](./solutions/121.py) |  |
