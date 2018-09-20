@@ -3,12 +3,12 @@
 Welcome!
 
 In order to hone my algorithm skills, I have been continuing working on leetcode questions since August 2018. 
-To put more focus on algorithm, I choose python3 as my programming language, since it seems to be easier to implement an idea.
-Most of the questions have a specific `.py` file under `solutions/` folder, while some of questions have multiple versions of solutions. 
+To put more focus on algorithms, I choose python3 as my programming language, since it seems to be easier to implement an idea.
+Most of the questions have a specific `.py` file under the `solutions/` folder, while some of questions have multiple versions of solutions. 
 
 If you are interested in this repo, feel free to fork it and put your solutions to it. 
 Whenever you want to add a new python solution, you need first create a `<id-of-leetcode-question>[.<version-name>].py` file under `solutions/` folder.
-You need to prepend a multi-line comment to your code. Typically it seems like:
+You also need to prepend a multi-line comment to your code. Typically it seems like:
 ```python
 """
 {
