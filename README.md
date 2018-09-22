@@ -8,7 +8,7 @@ Most of the questions have a specific `.py` file under the `solutions/` folder, 
 
 If you are interested in this repo, feel free to fork it and put your solutions to it. 
 Whenever you want to add a new python solution, you need first create a `<id-of-leetcode-question>[.<version-name>].py` file under `solutions/` folder.
-You also need to prepend a multi-line comment to your code. Typically it seems like:
+You also need to prepend a multi-line comment to your code. Typically it looks like:
 ```python
 """
 {
@@ -22,7 +22,7 @@ You also need to prepend a multi-line comment to your code. Typically it seems l
 }
 """
 ```
-Then, you just need to put your code below the header. You may also want to add some illustrating comments to your code.
+You may also want to add some explaination to your code.
 Finally, save your file and input `make` command into your command line tool under the root dir of this repo.
 This command collects all the information within the headers of all solutions and regenerate the README.md file.
 
@@ -32,9 +32,9 @@ I will keep on updating this repo and working on more leetcode questions. You ca
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**79** questions solved in total
+**82** questions solved in total
 
-**20** easy questions, **55** medium questions, and **4** hard questions
+**23** easy questions, **55** medium questions, and **4** hard questions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -91,11 +91,11 @@ My leetcode notes and solutions
 | medium | [200. number of islands](https://leetcode.com/problems/number-of-islands/description/) | [solution](./solutions/200.py) |  |
 | medium | [547. friend circles](https://leetcode.com/problems/friend-circles/description/) | [solution](./solutions/547.py) |  |
 | medium | [130. surrounded regions](https://leetcode.com/problems/surrounded-regions/description/) | [second](./solutions/130.second.py), [first](./solutions/130.first.py) |  |
-| medium | [417. pacific atlantic water flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/) | [optimized](./solutions/417.optimized.py), [backtracking](./solutions/417.backtracking.py) | border2center, backtracking |
+| medium | [417. pacific atlantic water flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/) | [optimized](./solutions/417.optimized.py), [backtracking](./solutions/417.backtracking.py) | backtracking, border2center |
 | medium | [93. restore ip addresses](https://leetcode.com/problems/restore-ip-addresses/description/) | [solution](./solutions/93.py) | backtracking |
 | medium | [17. letter combinations of a phone number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [solution](./solutions/17.py) | backtracking |
 | medium | [79. word search](https://leetcode.com/problems/word-search/description/) | [solution](./solutions/79.py) | backtracking |
-| medium | [257. binary tree paths](https://leetcode.com/problems/binary-tree-paths/description/) | [non-recursive](./solutions/257.non-recursive.py), [recursive](./solutions/257.recursive.py) | binary-tree, backtracking |
+| medium | [257. binary tree paths](https://leetcode.com/problems/binary-tree-paths/description/) | [non-recursive](./solutions/257.non-recursive.py), [recursive](./solutions/257.recursive.py) | backtracking, binary-tree |
 | medium | [46. permutations](https://leetcode.com/problems/permutations/description/) | [solution](./solutions/46.py) | backtracking |
 | medium | [47. permutations ii](https://leetcode.com/problems/permutations-ii/description/) | [sort](./solutions/47.sort.py), [set](./solutions/47.set.py) | backtracking |
 | medium | [77. combinations](https://leetcode.com/problems/combinations/description/) | [solution](./solutions/77.py) | backtracking |
@@ -145,3 +145,6 @@ My leetcode notes and solutions
 | easy | [504. base 7](https://leetcode.com/problems/base-7/description/) | [second](./solutions/504.second.py), [first](./solutions/504.first.py) | base-conversion |
 | easy | [405. convert a number to hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/description/) | [solution](./solutions/405.py) | base-conversion |
 | easy | [168. excel sheet column title](https://leetcode.com/problems/excel-sheet-column-title/description/) | [solution](./solutions/168.py) | base-conversion |
+| easy | [172. factorial trailing zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/) | [solution](./solutions/172.py) |  |
+| easy | [67. add binary](https://leetcode.com/problems/add-binary/description/) | [solution](./solutions/67.py) | binary, string-number |
+| easy | [415. add strings](https://leetcode.com/problems/add-strings/description/) | [solution](./solutions/415.py) | string-number |
