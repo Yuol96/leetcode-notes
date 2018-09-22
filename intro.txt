@@ -8,7 +8,7 @@ Most of the questions have a specific `.py` file under the `solutions/` folder, 
 
 If you are interested in this repo, feel free to fork it and put your solutions to it. 
 Whenever you want to add a new python solution, you need first create a `<id-of-leetcode-question>[.<version-name>].py` file under `solutions/` folder.
-You also need to prepend a multi-line comment to your code. Typically it seems like:
+You also need to prepend a multi-line comment to your code. Typically it looks like:
 ```python
 """
 {
@@ -22,7 +22,7 @@ You also need to prepend a multi-line comment to your code. Typically it seems l
 }
 """
 ```
-Then, you just need to put your code below the header. You may also want to add some illustrating comments to your code.
+You may also want to add some explaination to your code.
 Finally, save your file and input `make` command into your command line tool under the root dir of this repo.
 This command collects all the information within the headers of all solutions and regenerate the README.md file.
 
