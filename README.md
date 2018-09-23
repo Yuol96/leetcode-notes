@@ -32,13 +32,13 @@ I will keep on updating this repo and working on more leetcode questions. You ca
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**98** questions solved in total
+**104** questions solved in total
 
-**32** easy questions, **62** medium questions, and **4** hard questions
+**38** easy questions, **62** medium questions, and **4** hard questions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
-| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | quick-select, heap |
+| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | heap, quick-select |
 | medium | [347. top k frequent elements](https://leetcode.com/problems/top-k-frequent-elements/description/) | [solution](./solutions/347.py) | topk, bucket-sort |
 | medium | [451. sort characters by frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/) | [solution](./solutions/451.py) | bucket-sort |
 | medium | [75. sort colors](https://leetcode.com/problems/sort-colors/description/) | [solution](./solutions/75.py) | partition, 三向切分快速排序 |
@@ -95,7 +95,7 @@ My leetcode notes and solutions
 | medium | [93. restore ip addresses](https://leetcode.com/problems/restore-ip-addresses/description/) | [solution](./solutions/93.py) | backtracking |
 | medium | [17. letter combinations of a phone number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [solution](./solutions/17.py) | backtracking |
 | medium | [79. word search](https://leetcode.com/problems/word-search/description/) | [solution](./solutions/79.py) | backtracking |
-| medium | [257. binary tree paths](https://leetcode.com/problems/binary-tree-paths/description/) | [non-recursive](./solutions/257.non-recursive.py), [recursive](./solutions/257.recursive.py) | binary-tree, backtracking |
+| medium | [257. binary tree paths](https://leetcode.com/problems/binary-tree-paths/description/) | [non-recursive](./solutions/257.non-recursive.py), [recursive](./solutions/257.recursive.py) | backtracking, binary-tree |
 | medium | [46. permutations](https://leetcode.com/problems/permutations/description/) | [solution](./solutions/46.py) | backtracking |
 | medium | [47. permutations ii](https://leetcode.com/problems/permutations-ii/description/) | [sort](./solutions/47.sort.py), [set](./solutions/47.set.py) | backtracking |
 | medium | [77. combinations](https://leetcode.com/problems/combinations/description/) | [solution](./solutions/77.py) | backtracking |
@@ -167,3 +167,12 @@ My leetcode notes and solutions
 | easy | [234. palindrome linked list](https://leetcode.com/problems/palindrome-linked-list/description/) | [reverse](./solutions/234.reverse.py), [recursive](./solutions/234.recursive.py) |  |
 | medium | [725. split linked list in parts](https://leetcode.com/problems/split-linked-list-in-parts/description/) | [solution](./solutions/725.py) |  |
 | medium | [328. odd even linked list](https://leetcode.com/problems/odd-even-linked-list/description/) | [solution](./solutions/328.py) |  |
+## tree
+| Difficulty | Question | Version | Tags |
+| ------ | ------ | ------ | ------ |
+| easy | [104. maximum depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | [solution](./solutions/104.py) | DFS, backtracking |
+| easy | [110. balanced binary tree](https://leetcode.com/problems/balanced-binary-tree/description/) | [solution](./solutions/110.py) | DFS |
+| easy | [543. diameter of binary tree](https://leetcode.com/problems/diameter-of-binary-tree/description/) | [solution](./solutions/543.py) | DFS |
+| easy | [226. invert binary tree](https://leetcode.com/problems/invert-binary-tree/description/) | [solution](./solutions/226.py) | DFS |
+| easy | [617. merge two binary trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | [solution](./solutions/617.py) | DFS |
+| easy | [112. path sum](https://leetcode.com/problems/path-sum/description/) | [solution](./solutions/112.py) | DFS |
