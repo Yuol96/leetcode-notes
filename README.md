@@ -32,9 +32,9 @@ I will keep on updating this repo and working on more leetcode questions. You ca
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**95** questions solved in total
+**98** questions solved in total
 
-**31** easy questions, **60** medium questions, and **4** hard questions
+**32** easy questions, **62** medium questions, and **4** hard questions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -148,7 +148,7 @@ My leetcode notes and solutions
 | easy | [172. factorial trailing zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/) | [solution](./solutions/172.py) |  |
 | easy | [67. add binary](https://leetcode.com/problems/add-binary/description/) | [solution](./solutions/67.py) | binary, string-number |
 | easy | [415. add strings](https://leetcode.com/problems/add-strings/description/) | [solution](./solutions/415.py) | string-number |
-| medium | [462. minimum moves to equal array elements ii](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/) | [quick-select](./solutions/462.quick-select.py), [quick-sort](./solutions/462.quick-sort.py) | quick-select, median |
+| medium | [462. minimum moves to equal array elements ii](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/) | [quick-select](./solutions/462.quick-select.py), [quick-sort](./solutions/462.quick-sort.py) | median, quick-select |
 | easy | [169. majority element](https://leetcode.com/problems/majority-element/description/) | [quick-select](./solutions/169.quick-select.py), [boyer-moore](./solutions/169.boyer-moore.py), [quick-sort](./solutions/169.quick-sort.py), [naive](./solutions/169.naive.py) |  |
 | easy | [367. valid perfect square](https://leetcode.com/problems/valid-perfect-square/description/) | [delta-array](./solutions/367.delta-array.py), [naive](./solutions/367.naive.py) | square |
 | easy | [326. power of three](https://leetcode.com/problems/power-of-three/description/) | [mod](./solutions/326.mod.py), [naive](./solutions/326.naive.py) |  |
@@ -164,3 +164,6 @@ My leetcode notes and solutions
 | medium | [19. remove nth node from end of list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | [solution](./solutions/19.py) |  |
 | medium | [24. swap nodes in pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/) | [solution](./solutions/24.py) |  |
 | medium | [445. add two numbers ii](https://leetcode.com/problems/add-two-numbers-ii/description/) | [solution](./solutions/445.py) |  |
+| easy | [234. palindrome linked list](https://leetcode.com/problems/palindrome-linked-list/description/) | [reverse](./solutions/234.reverse.py), [recursive](./solutions/234.recursive.py) |  |
+| medium | [725. split linked list in parts](https://leetcode.com/problems/split-linked-list-in-parts/description/) | [solution](./solutions/725.py) |  |
+| medium | [328. odd even linked list](https://leetcode.com/problems/odd-even-linked-list/description/) | [solution](./solutions/328.py) |  |

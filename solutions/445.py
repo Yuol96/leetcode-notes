@@ -3,7 +3,7 @@
     "author": "Yucheng Huang",
     "difficulty": "medium",
     "link": "https://leetcode.com/problems/add-two-numbers-ii/description/",
-    "beats": 49.74,
+    "beats": 0.4974,
     "category": ["linked-list"],
     "tags": [],
     "questions": []
