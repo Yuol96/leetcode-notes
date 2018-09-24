@@ -32,9 +32,9 @@ I will keep on updating this repo and working on more leetcode questions. You ca
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**104** questions solved in total
+**106** questions solved in total
 
-**38** easy questions, **62** medium questions, and **4** hard questions
+**40** easy questions, **62** medium questions, and **4** hard questions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -91,7 +91,7 @@ My leetcode notes and solutions
 | medium | [200. number of islands](https://leetcode.com/problems/number-of-islands/description/) | [solution](./solutions/200.py) |  |
 | medium | [547. friend circles](https://leetcode.com/problems/friend-circles/description/) | [solution](./solutions/547.py) |  |
 | medium | [130. surrounded regions](https://leetcode.com/problems/surrounded-regions/description/) | [second](./solutions/130.second.py), [first](./solutions/130.first.py) |  |
-| medium | [417. pacific atlantic water flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/) | [optimized](./solutions/417.optimized.py), [backtracking](./solutions/417.backtracking.py) | border2center, backtracking |
+| medium | [417. pacific atlantic water flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/) | [optimized](./solutions/417.optimized.py), [backtracking](./solutions/417.backtracking.py) | backtracking, border2center |
 | medium | [93. restore ip addresses](https://leetcode.com/problems/restore-ip-addresses/description/) | [solution](./solutions/93.py) | backtracking |
 | medium | [17. letter combinations of a phone number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [solution](./solutions/17.py) | backtracking |
 | medium | [79. word search](https://leetcode.com/problems/word-search/description/) | [solution](./solutions/79.py) | backtracking |
@@ -176,3 +176,5 @@ My leetcode notes and solutions
 | easy | [226. invert binary tree](https://leetcode.com/problems/invert-binary-tree/description/) | [solution](./solutions/226.py) | DFS |
 | easy | [617. merge two binary trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | [solution](./solutions/617.py) | DFS |
 | easy | [112. path sum](https://leetcode.com/problems/path-sum/description/) | [solution](./solutions/112.py) | DFS |
+| easy | [437. path sum iii](https://leetcode.com/problems/path-sum-iii/description/) | [solution](./solutions/437.py) | DFS |
+| easy | [572. subtree of another tree](https://leetcode.com/problems/subtree-of-another-tree/description/) | [optimized](./solutions/572.optimized.py), [first](./solutions/572.first.py) | DFS |
