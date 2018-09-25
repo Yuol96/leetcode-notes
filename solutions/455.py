@@ -2,7 +2,7 @@
 {
 	"author": "Yucheng Huang",
     "difficulty": "medium",
-	"link": "https://leetcode.com/problems/sort-colors/description/",
+	"link": "https://leetcode.com/problems/assign-cookies/description/",
 	"category": ["greedy"],
 	"tags": ["binary-search"]
 }
