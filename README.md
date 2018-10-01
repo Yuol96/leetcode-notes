@@ -32,9 +32,9 @@ I will keep on updating this repo and working on more leetcode questions. You ca
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**109** questions solved in total
+**111** questions solved in total
 
-**43** easy questions, **62** medium questions, and **4** hard questions
+**44** easy questions, **63** medium questions, and **4** hard questions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -55,7 +55,7 @@ My leetcode notes and solutions
 ## greedy
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
-| medium | [455. sort colors](https://leetcode.com/problems/sort-colors/description/) | [solution](./solutions/455.py) | binary-search |
+| medium | [455. assign cookies](https://leetcode.com/problems/assign-cookies/description/) | [solution](./solutions/455.py) | binary-search |
 | medium | [435. non overlapping intervals](https://leetcode.com/problems/non-overlapping-intervals/description/) | [solution](./solutions/435.py) |  |
 | medium | [452. minimum number of arrows to burst balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/) | [solution](./solutions/452.py) |  |
 | medium | [406. queue reconstruction by height](https://leetcode.com/problems/queue-reconstruction-by-height/description/) | [optimized](./solutions/406.optimized.py), [original](./solutions/406.original.py) |  |
@@ -181,3 +181,5 @@ My leetcode notes and solutions
 | easy | [101. symmetric tree](https://leetcode.com/problems/symmetric-tree/description/) | [solution](./solutions/101.py) | DFS |
 | easy | [111. minimum depth of binary tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/) | [solution](./solutions/111.py) | DFS |
 | easy | [404. sum of left leaves](https://leetcode.com/problems/sum-of-left-leaves/description/) | [solution](./solutions/404.py) | DFS |
+| easy | [687. longest univalue path](https://leetcode.com/problems/longest-univalue-path/description/) | [solution](./solutions/687.py) | DFS |
+| medium | [337. house robber iii](https://leetcode.com/problems/house-robber-iii/description/) | [solution](./solutions/337.py) | DFS |
