@@ -38,7 +38,7 @@ My leetcode notes and solutions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
-| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | quick-select, heap |
+| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | heap, quick-select |
 | medium | [347. top k frequent elements](https://leetcode.com/problems/top-k-frequent-elements/description/) | [solution](./solutions/347.py) | topk, bucket-sort |
 | medium | [451. sort characters by frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/) | [solution](./solutions/451.py) | bucket-sort |
 | medium | [75. sort colors](https://leetcode.com/problems/sort-colors/description/) | [solution](./solutions/75.py) | partition, 三向切分快速排序 |
@@ -148,7 +148,7 @@ My leetcode notes and solutions
 | easy | [172. factorial trailing zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/) | [solution](./solutions/172.py) |  |
 | easy | [67. add binary](https://leetcode.com/problems/add-binary/description/) | [solution](./solutions/67.py) | binary, string-number |
 | easy | [415. add strings](https://leetcode.com/problems/add-strings/description/) | [solution](./solutions/415.py) | string-number |
-| medium | [462. minimum moves to equal array elements ii](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/) | [quick-select](./solutions/462.quick-select.py), [quick-sort](./solutions/462.quick-sort.py) | quick-select, median |
+| medium | [462. minimum moves to equal array elements ii](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/) | [quick-select](./solutions/462.quick-select.py), [quick-sort](./solutions/462.quick-sort.py) | median, quick-select |
 | easy | [169. majority element](https://leetcode.com/problems/majority-element/description/) | [quick-select](./solutions/169.quick-select.py), [boyer-moore](./solutions/169.boyer-moore.py), [quick-sort](./solutions/169.quick-sort.py), [naive](./solutions/169.naive.py) |  |
 | easy | [367. valid perfect square](https://leetcode.com/problems/valid-perfect-square/description/) | [delta-array](./solutions/367.delta-array.py), [naive](./solutions/367.naive.py) | square |
 | easy | [326. power of three](https://leetcode.com/problems/power-of-three/description/) | [mod](./solutions/326.mod.py), [naive](./solutions/326.naive.py) |  |

@@ -71,6 +71,13 @@ def gen_list():
 	output = "# Leetcode Solutions\n"
 	output += "My leetcode notes and solutions\n\n"
 	stat = get_statistics(infos)
+	import json
+	jsonStr = json.dumps({
+				'category2infoList': dct,
+				'stat': stat
+			})
+	with open('infos.json', 'w') as hd:
+		hd.write(jsonStr)
 	output += "**{}** questions solved in total\n\n**{}** easy questions, **{}** medium questions, and **{}** hard questions\n".format(stat['totalNum'], stat['difficultyCount']['easy'], stat['difficultyCount']['medium'], stat['difficultyCount']['hard'])
 	for category,infoList in sorted(list(dct.items()), key=lambda tup: np.mean(list(map(lambda info:info['rank'], tup[1]))) , reverse=True):
 		output += "## {}\n".format(category)
