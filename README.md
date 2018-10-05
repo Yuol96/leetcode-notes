@@ -32,13 +32,13 @@ I will keep on updating this repo and working on more leetcode questions. You ca
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**129** questions solved in total
+**131** questions solved in total
 
-**54** easy questions, **70** medium questions, and **5** hard questions
+**56** easy questions, **70** medium questions, and **5** hard questions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
-| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | heap, quick-select |
+| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | quick-select, heap |
 | medium | [347. top k frequent elements](https://leetcode.com/problems/top-k-frequent-elements/description/) | [solution](./solutions/347.py) | topk, bucket-sort |
 | medium | [451. sort characters by frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/) | [solution](./solutions/451.py) | bucket-sort |
 | medium | [75. sort colors](https://leetcode.com/problems/sort-colors/description/) | [solution](./solutions/75.py) | partition, 三向切分快速排序 |
@@ -91,7 +91,7 @@ My leetcode notes and solutions
 | medium | [200. number of islands](https://leetcode.com/problems/number-of-islands/description/) | [solution](./solutions/200.py) |  |
 | medium | [547. friend circles](https://leetcode.com/problems/friend-circles/description/) | [solution](./solutions/547.py) |  |
 | medium | [130. surrounded regions](https://leetcode.com/problems/surrounded-regions/description/) | [second](./solutions/130.second.py), [first](./solutions/130.first.py) |  |
-| medium | [417. pacific atlantic water flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/) | [optimized](./solutions/417.optimized.py), [backtracking](./solutions/417.backtracking.py) | backtracking, border2center |
+| medium | [417. pacific atlantic water flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/) | [optimized](./solutions/417.optimized.py), [backtracking](./solutions/417.backtracking.py) | border2center, backtracking |
 | medium | [93. restore ip addresses](https://leetcode.com/problems/restore-ip-addresses/description/) | [solution](./solutions/93.py) | backtracking |
 | medium | [17. letter combinations of a phone number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [solution](./solutions/17.py) | backtracking |
 | medium | [79. word search](https://leetcode.com/problems/word-search/description/) | [solution](./solutions/79.py) | backtracking |
@@ -148,7 +148,7 @@ My leetcode notes and solutions
 | easy | [172. factorial trailing zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/) | [solution](./solutions/172.py) |  |
 | easy | [67. add binary](https://leetcode.com/problems/add-binary/description/) | [solution](./solutions/67.py) | binary, string-number |
 | easy | [415. add strings](https://leetcode.com/problems/add-strings/description/) | [solution](./solutions/415.py) | string-number |
-| medium | [462. minimum moves to equal array elements ii](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/) | [quick-select](./solutions/462.quick-select.py), [quick-sort](./solutions/462.quick-sort.py) | median, quick-select |
+| medium | [462. minimum moves to equal array elements ii](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/) | [quick-select](./solutions/462.quick-select.py), [quick-sort](./solutions/462.quick-sort.py) | quick-select, median |
 | easy | [169. majority element](https://leetcode.com/problems/majority-element/description/) | [quick-select](./solutions/169.quick-select.py), [boyer-moore](./solutions/169.boyer-moore.py), [quick-sort](./solutions/169.quick-sort.py), [naive](./solutions/169.naive.py) |  |
 | easy | [367. valid perfect square](https://leetcode.com/problems/valid-perfect-square/description/) | [delta-array](./solutions/367.delta-array.py), [naive](./solutions/367.naive.py) | square |
 | easy | [326. power of three](https://leetcode.com/problems/power-of-three/description/) | [mod](./solutions/326.mod.py), [naive](./solutions/326.naive.py) |  |
@@ -201,3 +201,8 @@ My leetcode notes and solutions
 | easy | [501. minimum absolute difference in bst](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/) | [no-extra-space](./solutions/501.no-extra-space.py) | BST |
 | medium | [208. implement trie prefix tree](https://leetcode.com/problems/implement-trie-prefix-tree/description/) | [dict-optimized](./solutions/208.dict-optimized.py), [dict](./solutions/208.dict.py), [naive](./solutions/208.naive.py) | trie |
 | medium | [677. map sum pairs](https://leetcode.com/problems/map-sum-pairs/description/) | [solution](./solutions/677.py) | trie |
+## stack and array
+| Difficulty | Question | Version | Tags |
+| ------ | ------ | ------ | ------ |
+| easy | [232. implement queue using stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/) | [solution](./solutions/232.py) |  |
+| easy | [225. implement stack using queues](https://leetcode.com/problems/implement-stack-using-queues/description/) | [solution](./solutions/225.py) |  |
