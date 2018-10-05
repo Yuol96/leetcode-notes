@@ -32,13 +32,13 @@ I will keep on updating this repo and working on more leetcode questions. You ca
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**127** questions solved in total
+**129** questions solved in total
 
-**54** easy questions, **68** medium questions, and **5** hard questions
+**54** easy questions, **70** medium questions, and **5** hard questions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
-| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | quick-select, heap |
+| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | heap, quick-select |
 | medium | [347. top k frequent elements](https://leetcode.com/problems/top-k-frequent-elements/description/) | [solution](./solutions/347.py) | topk, bucket-sort |
 | medium | [451. sort characters by frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/) | [solution](./solutions/451.py) | bucket-sort |
 | medium | [75. sort colors](https://leetcode.com/problems/sort-colors/description/) | [solution](./solutions/75.py) | partition, 三向切分快速排序 |
@@ -199,3 +199,5 @@ My leetcode notes and solutions
 | easy | [653. two sum iv input is a bst](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/) | [solution](./solutions/653.py) | BST |
 | easy | [530. minimum absolute difference in bst](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/) | [solution](./solutions/530.py) | BST |
 | easy | [501. minimum absolute difference in bst](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/) | [no-extra-space](./solutions/501.no-extra-space.py) | BST |
+| medium | [208. implement trie prefix tree](https://leetcode.com/problems/implement-trie-prefix-tree/description/) | [dict-optimized](./solutions/208.dict-optimized.py), [dict](./solutions/208.dict.py), [naive](./solutions/208.naive.py) | trie |
+| medium | [677. map sum pairs](https://leetcode.com/problems/map-sum-pairs/description/) | [solution](./solutions/677.py) | trie |
