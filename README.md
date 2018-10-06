@@ -32,9 +32,9 @@ I will keep on updating this repo and working on more leetcode questions. You ca
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**147** questions solved in total
+**149** questions solved in total
 
-**68** easy questions, **73** medium questions, and **6** hard questions
+**69** easy questions, **74** medium questions, and **6** hard questions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -91,7 +91,7 @@ My leetcode notes and solutions
 | medium | [200. number of islands](https://leetcode.com/problems/number-of-islands/description/) | [solution](./solutions/200.py) |  |
 | medium | [547. friend circles](https://leetcode.com/problems/friend-circles/description/) | [solution](./solutions/547.py) |  |
 | medium | [130. surrounded regions](https://leetcode.com/problems/surrounded-regions/description/) | [second](./solutions/130.second.py), [first](./solutions/130.first.py) |  |
-| medium | [417. pacific atlantic water flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/) | [optimized](./solutions/417.optimized.py), [backtracking](./solutions/417.backtracking.py) | border2center, backtracking |
+| medium | [417. pacific atlantic water flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/) | [optimized](./solutions/417.optimized.py), [backtracking](./solutions/417.backtracking.py) | backtracking, border2center |
 | medium | [93. restore ip addresses](https://leetcode.com/problems/restore-ip-addresses/description/) | [solution](./solutions/93.py) | backtracking |
 | medium | [17. letter combinations of a phone number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [solution](./solutions/17.py) | backtracking |
 | medium | [79. word search](https://leetcode.com/problems/word-search/description/) | [solution](./solutions/79.py) | backtracking |
@@ -186,8 +186,8 @@ My leetcode notes and solutions
 | easy | [671. second minimum node in a binary tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/description/) | [solution](./solutions/671.py) | DFS |
 | easy | [637. average of levels in binary tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/) | [solution](./solutions/637.py) | BFS |
 | easy | [513. find bottom left tree value](https://leetcode.com/problems/find-bottom-left-tree-value/description/) | [solution](./solutions/513.py) | BFS |
-| medium | [144. binary tree preorder traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/) | [iterative-optimized](./solutions/144.iterative-optimized.py), [iterative](./solutions/144.iterative.py), [recursive](./solutions/144.recursive.py) | traversal, DFS |
-| hard | [145. binary tree postorder traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/) | [iterative-optimized](./solutions/145.iterative-optimized.py), [iterative](./solutions/145.iterative.py) | traversal, DFS |
+| medium | [144. binary tree preorder traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/) | [iterative-optimized](./solutions/144.iterative-optimized.py), [iterative](./solutions/144.iterative.py), [recursive](./solutions/144.recursive.py) | DFS, traversal |
+| hard | [145. binary tree postorder traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/) | [iterative-optimized](./solutions/145.iterative-optimized.py), [iterative](./solutions/145.iterative.py) | DFS, traversal |
 | medium | [94. binary tree inorder traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) | [iterative](./solutions/94.iterative.py) | DFS, traversal |
 | easy | [669. trim a binary search tree](https://leetcode.com/problems/trim-a-binary-search-tree/description/) | [solution](./solutions/669.py) | BST |
 | medium | [230. kth smallest element in a bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/) | [recursive](./solutions/230.recursive.py), [preorder](./solutions/230.preorder.py) | BST |
@@ -231,3 +231,5 @@ My leetcode notes and solutions
 | ------ | ------ | ------ | ------ |
 | easy | [283. move zeroes](https://leetcode.com/problems/move-zeroes/description/) | [solution](./solutions/283.py) |  |
 | easy | [566. reshape the matrix](https://leetcode.com/problems/reshape-the-matrix/description/) | [solution](./solutions/566.py) |  |
+| easy | [485. max consecutive ones](https://leetcode.com/problems/max-consecutive-ones/description/) | [solution](./solutions/485.py) |  |
+| medium | [240. search a 2d matrix ii](https://leetcode.com/problems/search-a-2d-matrix-ii/description/) | [solution](./solutions/240.py) | BST |
