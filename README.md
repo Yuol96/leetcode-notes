@@ -32,9 +32,9 @@ I will keep on updating this repo and working on more leetcode questions. You ca
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**145** questions solved in total
+**147** questions solved in total
 
-**66** easy questions, **73** medium questions, and **6** hard questions
+**68** easy questions, **73** medium questions, and **6** hard questions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -186,8 +186,8 @@ My leetcode notes and solutions
 | easy | [671. second minimum node in a binary tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/description/) | [solution](./solutions/671.py) | DFS |
 | easy | [637. average of levels in binary tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/) | [solution](./solutions/637.py) | BFS |
 | easy | [513. find bottom left tree value](https://leetcode.com/problems/find-bottom-left-tree-value/description/) | [solution](./solutions/513.py) | BFS |
-| medium | [144. binary tree preorder traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/) | [iterative-optimized](./solutions/144.iterative-optimized.py), [iterative](./solutions/144.iterative.py), [recursive](./solutions/144.recursive.py) | DFS, traversal |
-| hard | [145. binary tree postorder traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/) | [iterative-optimized](./solutions/145.iterative-optimized.py), [iterative](./solutions/145.iterative.py) | DFS, traversal |
+| medium | [144. binary tree preorder traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/) | [iterative-optimized](./solutions/144.iterative-optimized.py), [iterative](./solutions/144.iterative.py), [recursive](./solutions/144.recursive.py) | traversal, DFS |
+| hard | [145. binary tree postorder traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/) | [iterative-optimized](./solutions/145.iterative-optimized.py), [iterative](./solutions/145.iterative.py) | traversal, DFS |
 | medium | [94. binary tree inorder traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) | [iterative](./solutions/94.iterative.py) | DFS, traversal |
 | easy | [669. trim a binary search tree](https://leetcode.com/problems/trim-a-binary-search-tree/description/) | [solution](./solutions/669.py) | BST |
 | medium | [230. kth smallest element in a bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/) | [recursive](./solutions/230.recursive.py), [preorder](./solutions/230.preorder.py) | BST |
@@ -226,3 +226,8 @@ My leetcode notes and solutions
 | medium | [647. palindromic substrings](https://leetcode.com/problems/palindromic-substrings/description/) | [solution](./solutions/647.py) | palindrome |
 | easy | [9. palindrome number](https://leetcode.com/problems/palindrome-number/description/) | [reverse](./solutions/9.reverse.py), [two-pointers](./solutions/9.two-pointers.py) | palindrome |
 | easy | [696. count binary substrings](https://leetcode.com/problems/count-binary-substrings/description/) | [alternative](./solutions/696.alternative.py), [center](./solutions/696.center.py) | palindrome |
+## array
+| Difficulty | Question | Version | Tags |
+| ------ | ------ | ------ | ------ |
+| easy | [283. move zeroes](https://leetcode.com/problems/move-zeroes/description/) | [solution](./solutions/283.py) |  |
+| easy | [566. reshape the matrix](https://leetcode.com/problems/reshape-the-matrix/description/) | [solution](./solutions/566.py) |  |
