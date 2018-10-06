@@ -32,9 +32,9 @@ I will keep on updating this repo and working on more leetcode questions. You ca
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**131** questions solved in total
+**135** questions solved in total
 
-**56** easy questions, **70** medium questions, and **5** hard questions
+**58** easy questions, **72** medium questions, and **5** hard questions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -95,7 +95,7 @@ My leetcode notes and solutions
 | medium | [93. restore ip addresses](https://leetcode.com/problems/restore-ip-addresses/description/) | [solution](./solutions/93.py) | backtracking |
 | medium | [17. letter combinations of a phone number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [solution](./solutions/17.py) | backtracking |
 | medium | [79. word search](https://leetcode.com/problems/word-search/description/) | [solution](./solutions/79.py) | backtracking |
-| medium | [257. binary tree paths](https://leetcode.com/problems/binary-tree-paths/description/) | [non-recursive](./solutions/257.non-recursive.py), [recursive](./solutions/257.recursive.py) | backtracking, binary-tree |
+| medium | [257. binary tree paths](https://leetcode.com/problems/binary-tree-paths/description/) | [non-recursive](./solutions/257.non-recursive.py), [recursive](./solutions/257.recursive.py) | binary-tree, backtracking |
 | medium | [46. permutations](https://leetcode.com/problems/permutations/description/) | [solution](./solutions/46.py) | backtracking |
 | medium | [47. permutations ii](https://leetcode.com/problems/permutations-ii/description/) | [sort](./solutions/47.sort.py), [set](./solutions/47.set.py) | backtracking |
 | medium | [77. combinations](https://leetcode.com/problems/combinations/description/) | [solution](./solutions/77.py) | backtracking |
@@ -206,3 +206,7 @@ My leetcode notes and solutions
 | ------ | ------ | ------ | ------ |
 | easy | [232. implement queue using stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/) | [solution](./solutions/232.py) |  |
 | easy | [225. implement stack using queues](https://leetcode.com/problems/implement-stack-using-queues/description/) | [solution](./solutions/225.py) |  |
+| easy | [155. min stack](https://leetcode.com/problems/min-stack/description/) | [solution](./solutions/155.py) |  |
+| easy | [20. valid parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [solution](./solutions/20.py) |  |
+| medium | [739. daily temperatures](https://leetcode.com/problems/daily-temperatures/description/) | [stack](./solutions/739.stack.py), [naive](./solutions/739.naive.py) |  |
+| medium | [503. next greater element ii](https://leetcode.com/problems/next-greater-element-ii/description/) | [solution](./solutions/503.py) |  |
