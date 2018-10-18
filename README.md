@@ -32,13 +32,13 @@ I will keep on updating this repo and working on more leetcode questions. You ca
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**154** questions solved in total
+**156** questions solved in total
 
-**71** easy questions, **77** medium questions, and **6** hard questions
+**72** easy questions, **78** medium questions, and **6** hard questions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
-| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | heap, quick-select |
+| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | quick-select, heap |
 | medium | [347. top k frequent elements](https://leetcode.com/problems/top-k-frequent-elements/description/) | [solution](./solutions/347.py) | topk, bucket-sort |
 | medium | [451. sort characters by frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/) | [solution](./solutions/451.py) | bucket-sort |
 | medium | [75. sort colors](https://leetcode.com/problems/sort-colors/description/) | [solution](./solutions/75.py) | partition, 三向切分快速排序 |
@@ -95,7 +95,7 @@ My leetcode notes and solutions
 | medium | [93. restore ip addresses](https://leetcode.com/problems/restore-ip-addresses/description/) | [solution](./solutions/93.py) | backtracking |
 | medium | [17. letter combinations of a phone number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [solution](./solutions/17.py) | backtracking |
 | medium | [79. word search](https://leetcode.com/problems/word-search/description/) | [solution](./solutions/79.py) | backtracking |
-| medium | [257. binary tree paths](https://leetcode.com/problems/binary-tree-paths/description/) | [non-recursive](./solutions/257.non-recursive.py), [recursive](./solutions/257.recursive.py) | backtracking, binary-tree |
+| medium | [257. binary tree paths](https://leetcode.com/problems/binary-tree-paths/description/) | [non-recursive](./solutions/257.non-recursive.py), [recursive](./solutions/257.recursive.py) | binary-tree, backtracking |
 | medium | [46. permutations](https://leetcode.com/problems/permutations/description/) | [solution](./solutions/46.py) | backtracking |
 | medium | [47. permutations ii](https://leetcode.com/problems/permutations-ii/description/) | [sort](./solutions/47.sort.py), [set](./solutions/47.set.py) | backtracking |
 | medium | [77. combinations](https://leetcode.com/problems/combinations/description/) | [solution](./solutions/77.py) | backtracking |
@@ -186,7 +186,7 @@ My leetcode notes and solutions
 | easy | [671. second minimum node in a binary tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/description/) | [solution](./solutions/671.py) | DFS |
 | easy | [637. average of levels in binary tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/) | [solution](./solutions/637.py) | BFS |
 | easy | [513. find bottom left tree value](https://leetcode.com/problems/find-bottom-left-tree-value/description/) | [solution](./solutions/513.py) | BFS |
-| medium | [144. binary tree preorder traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/) | [iterative-optimized](./solutions/144.iterative-optimized.py), [iterative](./solutions/144.iterative.py), [recursive](./solutions/144.recursive.py) | traversal, DFS |
+| medium | [144. binary tree preorder traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/) | [iterative-optimized](./solutions/144.iterative-optimized.py), [iterative](./solutions/144.iterative.py), [recursive](./solutions/144.recursive.py) | DFS, traversal |
 | hard | [145. binary tree postorder traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/) | [iterative-optimized](./solutions/145.iterative-optimized.py), [iterative](./solutions/145.iterative.py) | traversal, DFS |
 | medium | [94. binary tree inorder traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) | [iterative](./solutions/94.iterative.py) | DFS, traversal |
 | easy | [669. trim a binary search tree](https://leetcode.com/problems/trim-a-binary-search-tree/description/) | [solution](./solutions/669.py) | BST |
@@ -238,3 +238,5 @@ My leetcode notes and solutions
 | easy | [448. find all numbers disappeared in an array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/) | [solution](./solutions/448.py) |  |
 | medium | [442. find all duplicates in an array](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/) | [solution](./solutions/442.py) |  |
 | medium | [287. find the duplicate number](https://leetcode.com/problems/find-the-duplicate-number/description/) | [linked-list](./solutions/287.linked-list.py), [binary-search](./solutions/287.binary-search.py) | linked list circle |
+| medium | [667. beautiful arrangement ii](https://leetcode.com/problems/beautiful-arrangement-ii/description/) | [solution](./solutions/667.py) |  |
+| easy | [697. degree of an array](https://leetcode.com/problems/degree-of-an-array/submissions/) | [solution](./solutions/697.py) |  |
