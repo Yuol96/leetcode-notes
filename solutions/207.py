@@ -5,7 +5,7 @@
     "link": "https://leetcode.com/problems/course-schedule/description/",
     "beats": 0.1556,
     "category": ["graph"],
-    "tags": ["DAG"],
+    "tags": ["DAG","*"],
     "questions": []
 }
 """
