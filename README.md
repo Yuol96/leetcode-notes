@@ -32,9 +32,9 @@ I will keep on updating this repo and working on more leetcode questions. You ca
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**174** questions solved in total
+**181** questions solved in total
 
-**81** easy questions, **87** medium questions, and **6** hard questions
+**88** easy questions, **87** medium questions, and **6** hard questions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -187,8 +187,8 @@ My leetcode notes and solutions
 | easy | [671. second minimum node in a binary tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/description/) | [solution](./solutions/671.py) | DFS |
 | easy | [637. average of levels in binary tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/) | [solution](./solutions/637.py) | BFS |
 | easy | [513. find bottom left tree value](https://leetcode.com/problems/find-bottom-left-tree-value/description/) | [solution](./solutions/513.py) | BFS |
-| medium | [144. binary tree preorder traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/) | [iterative-optimized](./solutions/144.iterative-optimized.py), [iterative](./solutions/144.iterative.py), [recursive](./solutions/144.recursive.py) | DFS, traversal |
-| hard | [145. binary tree postorder traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/) | [iterative-optimized](./solutions/145.iterative-optimized.py), [iterative](./solutions/145.iterative.py) | DFS, traversal |
+| medium | [144. binary tree preorder traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/) | [iterative-optimized](./solutions/144.iterative-optimized.py), [iterative](./solutions/144.iterative.py), [recursive](./solutions/144.recursive.py) | traversal, DFS |
+| hard | [145. binary tree postorder traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/) | [iterative-optimized](./solutions/145.iterative-optimized.py), [iterative](./solutions/145.iterative.py) | traversal, DFS |
 | medium | [94. binary tree inorder traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) | [iterative](./solutions/94.iterative.py) | DFS, traversal |
 | easy | [669. trim a binary search tree](https://leetcode.com/problems/trim-a-binary-search-tree/description/) | [solution](./solutions/669.py) | BST |
 | medium | [230. kth smallest element in a bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/) | [recursive](./solutions/230.recursive.py), [preorder](./solutions/230.preorder.py) | BST |
@@ -245,6 +245,8 @@ My leetcode notes and solutions
 | medium | [565. array nesting](https://leetcode.com/problems/array-nesting/) | [second](./solutions/565.second.py), [first](./solutions/565.first.py) |  |
 | medium | [769. max chunks to make sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/description/) | [second](./solutions/769.second.py), [first](./solutions/769.first.py) |  |
 | easy | [268. missing number](https://leetcode.com/problems/missing-number/description/) | [xor](./solutions/268.xor.py), [sort](./solutions/268.sort.py) |  |
+| easy | [171. excel sheet column number](https://leetcode.com/problems/excel-sheet-column-number/description/) | [solution](./solutions/171.py) | excel, 进制 |
+| easy | [350. intersection of two arrays ii](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/) | [solution](./solutions/350.py) |  |
 ## graph
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -266,3 +268,11 @@ My leetcode notes and solutions
 | easy | [371. sum of two integers](https://leetcode.com/problems/sum-of-two-integers/description/) | [solution](./solutions/371.py) | ** |
 | medium | [318. maximum product of word lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/description/) | [solution](./solutions/318.py) |  |
 | medium | [338. counting bits](https://leetcode.com/problems/counting-bits/description/) | [DP](./solutions/338.DP.py), [induction](./solutions/338.induction.py) |  |
+## Very Easy Questions
+| Difficulty | Question | Version | Tags |
+| ------ | ------ | ------ | ------ |
+| easy | [344. reverse string](https://leetcode.com/problems/reverse-string/description/) | [solution](./solutions/344.py) |  |
+| easy | [412. fizz buzz](https://leetcode.com/problems/fizz-buzz/description/) | [solution](./solutions/412.py) |  |
+| easy | [13. roman to integer](https://leetcode.com/problems/roman-to-integer/submissions/) | [solution](./solutions/13.py) |  |
+| easy | [237. delete node in a linked list](https://leetcode.com/problems/delete-node-in-a-linked-list/description/) | [solution](./solutions/237.py) |  |
+| easy | [387. first unique character in a string](https://leetcode.com/problems/first-unique-character-in-a-string/description/) | [solution](./solutions/387.py) |  |
