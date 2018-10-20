@@ -32,9 +32,9 @@ I will keep on updating this repo and working on more leetcode questions. You ca
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**181** questions solved in total
+**186** questions solved in total
 
-**88** easy questions, **87** medium questions, and **6** hard questions
+**93** easy questions, **87** medium questions, and **6** hard questions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -95,7 +95,7 @@ My leetcode notes and solutions
 | medium | [93. restore ip addresses](https://leetcode.com/problems/restore-ip-addresses/description/) | [solution](./solutions/93.py) | backtracking |
 | medium | [17. letter combinations of a phone number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [solution](./solutions/17.py) | backtracking |
 | medium | [79. word search](https://leetcode.com/problems/word-search/description/) | [solution](./solutions/79.py) | backtracking |
-| medium | [257. binary tree paths](https://leetcode.com/problems/binary-tree-paths/description/) | [non-recursive](./solutions/257.non-recursive.py), [recursive](./solutions/257.recursive.py) | backtracking, binary-tree |
+| medium | [257. binary tree paths](https://leetcode.com/problems/binary-tree-paths/description/) | [non-recursive](./solutions/257.non-recursive.py), [recursive](./solutions/257.recursive.py) | binary-tree, backtracking |
 | medium | [46. permutations](https://leetcode.com/problems/permutations/description/) | [solution](./solutions/46.py) | backtracking |
 | medium | [47. permutations ii](https://leetcode.com/problems/permutations-ii/description/) | [sort](./solutions/47.sort.py), [set](./solutions/47.set.py) | backtracking |
 | medium | [77. combinations](https://leetcode.com/problems/combinations/description/) | [solution](./solutions/77.py) | backtracking |
@@ -155,6 +155,7 @@ My leetcode notes and solutions
 | easy | [326. power of three](https://leetcode.com/problems/power-of-three/description/) | [mod](./solutions/326.mod.py), [naive](./solutions/326.naive.py) |  |
 | medium | [238. product of array except self](https://leetcode.com/problems/product-of-array-except-self/description/) | [solution](./solutions/238.py) |  |
 | easy | [628. maximum product of three numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/) | [smart-bruteForce](./solutions/628.smart-bruteForce.py) |  |
+| easy | [202. happy number](https://leetcode.com/problems/happy-number/description/) | [solution](./solutions/202.py) |  |
 ## linked-list
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -218,15 +219,6 @@ My leetcode notes and solutions
 | easy | [217. contains duplicate](https://leetcode.com/problems/contains-duplicate/description/) | [set](./solutions/217.set.py) |  |
 | easy | [594. longest harmonious subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/description/) | [solution](./solutions/594.py) |  |
 | hard | [128. longest consecutive sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/) | [solution](./solutions/128.py) |  |
-## string
-| Difficulty | Question | Version | Tags |
-| ------ | ------ | ------ | ------ |
-| easy | [242. valid anagram](https://leetcode.com/problems/valid-anagram/description/) | [list](./solutions/242.list.py) |  |
-| easy | [409. longest palindrome](https://leetcode.com/problems/longest-palindrome/description/) | [solution](./solutions/409.py) | palindrome |
-| easy | [205. isomorphic strings](https://leetcode.com/problems/isomorphic-strings/description/) | [second](./solutions/205.second.py), [first](./solutions/205.first.py) |  |
-| medium | [647. palindromic substrings](https://leetcode.com/problems/palindromic-substrings/description/) | [solution](./solutions/647.py) | palindrome |
-| easy | [9. palindrome number](https://leetcode.com/problems/palindrome-number/description/) | [reverse](./solutions/9.reverse.py), [two-pointers](./solutions/9.two-pointers.py) | palindrome |
-| easy | [696. count binary substrings](https://leetcode.com/problems/count-binary-substrings/description/) | [alternative](./solutions/696.alternative.py), [center](./solutions/696.center.py) | palindrome |
 ## array
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -247,6 +239,19 @@ My leetcode notes and solutions
 | easy | [268. missing number](https://leetcode.com/problems/missing-number/description/) | [xor](./solutions/268.xor.py), [sort](./solutions/268.sort.py) |  |
 | easy | [171. excel sheet column number](https://leetcode.com/problems/excel-sheet-column-number/description/) | [solution](./solutions/171.py) | excel, 进制 |
 | easy | [350. intersection of two arrays ii](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/) | [solution](./solutions/350.py) |  |
+## string
+| Difficulty | Question | Version | Tags |
+| ------ | ------ | ------ | ------ |
+| easy | [242. valid anagram](https://leetcode.com/problems/valid-anagram/description/) | [list](./solutions/242.list.py) |  |
+| easy | [409. longest palindrome](https://leetcode.com/problems/longest-palindrome/description/) | [solution](./solutions/409.py) | palindrome |
+| easy | [205. isomorphic strings](https://leetcode.com/problems/isomorphic-strings/description/) | [second](./solutions/205.second.py), [first](./solutions/205.first.py) |  |
+| medium | [647. palindromic substrings](https://leetcode.com/problems/palindromic-substrings/description/) | [solution](./solutions/647.py) | palindrome |
+| easy | [9. palindrome number](https://leetcode.com/problems/palindrome-number/description/) | [reverse](./solutions/9.reverse.py), [two-pointers](./solutions/9.two-pointers.py) | palindrome |
+| easy | [696. count binary substrings](https://leetcode.com/problems/count-binary-substrings/description/) | [alternative](./solutions/696.alternative.py), [center](./solutions/696.center.py) | palindrome |
+| easy | [118. pascals triangle](https://leetcode.com/problems/pascals-triangle/description/) | [solution](./solutions/118.py) |  |
+| easy | [38. count and say](https://leetcode.com/problems/count-and-say/description/) | [solution](./solutions/38.py) |  |
+| easy | [28. implement strstr](https://leetcode.com/problems/implement-strstr/description/) | [solution](./solutions/28.py) | *stringMatch |
+| easy | [125. valid palindrome](https://leetcode.com/problems/valid-palindrome/description/) | [solution](./solutions/125.py) | palindrome |
 ## graph
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
