@@ -3,6 +3,7 @@ from easydict import EasyDict as edict
 from pathlib import Path
 import os
 import numpy as np
+from pprint import pprint
 
 cfg = edict()
 cfg.solution_dir = Path("./solutions")
@@ -40,7 +41,12 @@ def parse_all_solutions():
 		info = parse_single_code(file,rank)
 		infoId = info['id']
 		if infoId in infos_dict:
-			infos_dict[infoId]['version'] += info['version']
+			try:
+				infos_dict[infoId]['version'] += info['version']
+			except Exception as e:
+				pprint(info)
+				print(e)
+				raise e
 			infos_dict[infoId]['tags'] = list(set(infos_dict[infoId]['tags']+info['tags']))
 			infos_dict[infoId]['category'] = list(set(infos_dict[infoId]['category']+info['category']))
 			infos_dict[infoId]['rank'] = info['rank']
