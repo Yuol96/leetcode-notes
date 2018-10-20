@@ -32,9 +32,9 @@ I will keep on updating this repo and working on more leetcode questions. You ca
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**186** questions solved in total
+**188** questions solved in total
 
-**93** easy questions, **87** medium questions, and **6** hard questions
+**94** easy questions, **88** medium questions, and **6** hard questions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -91,11 +91,11 @@ My leetcode notes and solutions
 | medium | [200. number of islands](https://leetcode.com/problems/number-of-islands/description/) | [solution](./solutions/200.py) |  |
 | medium | [547. friend circles](https://leetcode.com/problems/friend-circles/description/) | [solution](./solutions/547.py) |  |
 | medium | [130. surrounded regions](https://leetcode.com/problems/surrounded-regions/description/) | [second](./solutions/130.second.py), [first](./solutions/130.first.py) |  |
-| medium | [417. pacific atlantic water flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/) | [optimized](./solutions/417.optimized.py), [backtracking](./solutions/417.backtracking.py) | backtracking, border2center |
+| medium | [417. pacific atlantic water flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/) | [optimized](./solutions/417.optimized.py), [backtracking](./solutions/417.backtracking.py) | border2center, backtracking |
 | medium | [93. restore ip addresses](https://leetcode.com/problems/restore-ip-addresses/description/) | [solution](./solutions/93.py) | backtracking |
 | medium | [17. letter combinations of a phone number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | [solution](./solutions/17.py) | backtracking |
 | medium | [79. word search](https://leetcode.com/problems/word-search/description/) | [solution](./solutions/79.py) | backtracking |
-| medium | [257. binary tree paths](https://leetcode.com/problems/binary-tree-paths/description/) | [non-recursive](./solutions/257.non-recursive.py), [recursive](./solutions/257.recursive.py) | binary-tree, backtracking |
+| medium | [257. binary tree paths](https://leetcode.com/problems/binary-tree-paths/description/) | [non-recursive](./solutions/257.non-recursive.py), [recursive](./solutions/257.recursive.py) | backtracking, binary-tree |
 | medium | [46. permutations](https://leetcode.com/problems/permutations/description/) | [solution](./solutions/46.py) | backtracking |
 | medium | [47. permutations ii](https://leetcode.com/problems/permutations-ii/description/) | [sort](./solutions/47.sort.py), [set](./solutions/47.set.py) | backtracking |
 | medium | [77. combinations](https://leetcode.com/problems/combinations/description/) | [solution](./solutions/77.py) | backtracking |
@@ -108,6 +108,7 @@ My leetcode notes and solutions
 | hard | [37. sudoku solver](https://leetcode.com/problems/sudoku-solver/description/) | [solution](./solutions/37.py) | backtracking |
 | hard | [51. n queens](https://leetcode.com/problems/n-queens/description/) | [solution](./solutions/51.py) | backtracking |
 | medium | [494. target sum](https://leetcode.com/problems/target-sum/description/) | [DFS](./solutions/494.DFS.py), [DP](./solutions/494.DP.py) | knapsack |
+| medium | [22. generate parentheses](https://leetcode.com/problems/generate-parentheses/description/) | [solution](./solutions/22.py) | backtracking |
 ## dynamic-programming
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -239,6 +240,7 @@ My leetcode notes and solutions
 | easy | [268. missing number](https://leetcode.com/problems/missing-number/description/) | [xor](./solutions/268.xor.py), [sort](./solutions/268.sort.py) |  |
 | easy | [171. excel sheet column number](https://leetcode.com/problems/excel-sheet-column-number/description/) | [solution](./solutions/171.py) | excel, 进制 |
 | easy | [350. intersection of two arrays ii](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/) | [solution](./solutions/350.py) |  |
+| easy | [189. rotate array](https://leetcode.com/problems/rotate-array/description/) | [solution](./solutions/189.py) | in-place, ** |
 ## string
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
