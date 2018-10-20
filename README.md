@@ -32,13 +32,13 @@ I will keep on updating this repo and working on more leetcode questions. You ca
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**161** questions solved in total
+**174** questions solved in total
 
-**73** easy questions, **82** medium questions, and **6** hard questions
+**81** easy questions, **87** medium questions, and **6** hard questions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
-| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | quick-select, heap |
+| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | heap, quick-select |
 | medium | [347. top k frequent elements](https://leetcode.com/problems/top-k-frequent-elements/description/) | [solution](./solutions/347.py) | topk, bucket-sort |
 | medium | [451. sort characters by frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/) | [solution](./solutions/451.py) | bucket-sort |
 | medium | [75. sort colors](https://leetcode.com/problems/sort-colors/description/) | [solution](./solutions/75.py) | partition, 三向切分快速排序 |
@@ -138,6 +138,7 @@ My leetcode notes and solutions
 | medium | [583. delete operation for two strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/) | [solution](./solutions/583.py) | string |
 | medium | [72. edit distance](https://leetcode.com/problems/edit-distance/description/) | [solution](./solutions/72.py) | string |
 | medium | [650. 2 keys keyboard](https://leetcode.com/problems/2-keys-keyboard/description/) | [solution](./solutions/650.py) | string |
+| medium | [338. counting bits](https://leetcode.com/problems/counting-bits/description/) | [DP](./solutions/338.DP.py), [induction](./solutions/338.induction.py) |  |
 ## math
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -148,7 +149,7 @@ My leetcode notes and solutions
 | easy | [172. factorial trailing zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/) | [solution](./solutions/172.py) |  |
 | easy | [67. add binary](https://leetcode.com/problems/add-binary/description/) | [solution](./solutions/67.py) | binary, string-number |
 | easy | [415. add strings](https://leetcode.com/problems/add-strings/description/) | [solution](./solutions/415.py) | string-number |
-| medium | [462. minimum moves to equal array elements ii](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/) | [quick-select](./solutions/462.quick-select.py), [quick-sort](./solutions/462.quick-sort.py) | quick-select, median |
+| medium | [462. minimum moves to equal array elements ii](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/) | [quick-select](./solutions/462.quick-select.py), [quick-sort](./solutions/462.quick-sort.py) | median, quick-select |
 | easy | [169. majority element](https://leetcode.com/problems/majority-element/description/) | [quick-select](./solutions/169.quick-select.py), [boyer-moore](./solutions/169.boyer-moore.py), [quick-sort](./solutions/169.quick-sort.py), [naive](./solutions/169.naive.py) |  |
 | easy | [367. valid perfect square](https://leetcode.com/problems/valid-perfect-square/description/) | [delta-array](./solutions/367.delta-array.py), [naive](./solutions/367.naive.py) | square |
 | easy | [326. power of three](https://leetcode.com/problems/power-of-three/description/) | [mod](./solutions/326.mod.py), [naive](./solutions/326.naive.py) |  |
@@ -186,8 +187,8 @@ My leetcode notes and solutions
 | easy | [671. second minimum node in a binary tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/description/) | [solution](./solutions/671.py) | DFS |
 | easy | [637. average of levels in binary tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/) | [solution](./solutions/637.py) | BFS |
 | easy | [513. find bottom left tree value](https://leetcode.com/problems/find-bottom-left-tree-value/description/) | [solution](./solutions/513.py) | BFS |
-| medium | [144. binary tree preorder traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/) | [iterative-optimized](./solutions/144.iterative-optimized.py), [iterative](./solutions/144.iterative.py), [recursive](./solutions/144.recursive.py) | traversal, DFS |
-| hard | [145. binary tree postorder traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/) | [iterative-optimized](./solutions/145.iterative-optimized.py), [iterative](./solutions/145.iterative.py) | traversal, DFS |
+| medium | [144. binary tree preorder traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/) | [iterative-optimized](./solutions/144.iterative-optimized.py), [iterative](./solutions/144.iterative.py), [recursive](./solutions/144.recursive.py) | DFS, traversal |
+| hard | [145. binary tree postorder traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/) | [iterative-optimized](./solutions/145.iterative-optimized.py), [iterative](./solutions/145.iterative.py) | DFS, traversal |
 | medium | [94. binary tree inorder traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) | [iterative](./solutions/94.iterative.py) | DFS, traversal |
 | easy | [669. trim a binary search tree](https://leetcode.com/problems/trim-a-binary-search-tree/description/) | [solution](./solutions/669.py) | BST |
 | medium | [230. kth smallest element in a bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/) | [recursive](./solutions/230.recursive.py), [preorder](./solutions/230.preorder.py) | BST |
@@ -243,8 +244,25 @@ My leetcode notes and solutions
 | easy | [766. toeplitz matrix](https://leetcode.com/problems/toeplitz-matrix/) | [solution](./solutions/766.py) |  |
 | medium | [565. array nesting](https://leetcode.com/problems/array-nesting/) | [second](./solutions/565.second.py), [first](./solutions/565.first.py) |  |
 | medium | [769. max chunks to make sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/description/) | [second](./solutions/769.second.py), [first](./solutions/769.first.py) |  |
+| easy | [268. missing number](https://leetcode.com/problems/missing-number/description/) | [xor](./solutions/268.xor.py), [sort](./solutions/268.sort.py) |  |
 ## graph
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
 | medium | [785. is graph bipartite](https://leetcode.com/problems/is-graph-bipartite/description/) | [solution](./solutions/785.py) | bipartite |
-| medium | [207. course schedule](https://leetcode.com/problems/course-schedule/description/) | [solution](./solutions/207.py) | DAG |
+| medium | [207. course schedule](https://leetcode.com/problems/course-schedule/description/) | [solution](./solutions/207.py) | DAG, * |
+| medium | [210. course schedule ii](https://leetcode.com/problems/course-schedule-ii/description/) | [solution](./solutions/210.py) | DAG, * |
+| medium | [684. redundant connection](https://leetcode.com/problems/redundant-connection/description/) | [solution](./solutions/684.py) | union-find, *685 |
+## bit manipulation
+| Difficulty | Question | Version | Tags |
+| ------ | ------ | ------ | ------ |
+| easy | [461. hamming distance](https://leetcode.com/problems/hamming-distance/description/) | [smart](./solutions/461.smart.py), [naive](./solutions/461.naive.py) |  |
+| easy | [136. single number](https://leetcode.com/problems/single-number/description/) | [solution](./solutions/136.py) |  |
+| easy | [268. missing number](https://leetcode.com/problems/missing-number/description/) | [xor](./solutions/268.xor.py), [sort](./solutions/268.sort.py) |  |
+| medium | [260. single number iii](https://leetcode.com/problems/single-number-iii/description/) | [solution](./solutions/260.py) |  |
+| easy | [231. power of two](https://leetcode.com/problems/power-of-two/description/) | [solution](./solutions/231.py) |  |
+| easy | [342. power of four](https://leetcode.com/problems/power-of-four/description/) | [solution](./solutions/342.py) |  |
+| easy | [693. binary number with alternating bits](https://leetcode.com/problems/binary-number-with-alternating-bits/description/) | [smart](./solutions/693.smart.py), [naive](./solutions/693.naive.py) |  |
+| easy | [476. number complement](https://leetcode.com/problems/number-complement/description/) | [second](./solutions/476.second.py), [first](./solutions/476.first.py) |  |
+| easy | [371. sum of two integers](https://leetcode.com/problems/sum-of-two-integers/description/) | [solution](./solutions/371.py) | ** |
+| medium | [318. maximum product of word lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/description/) | [solution](./solutions/318.py) |  |
+| medium | [338. counting bits](https://leetcode.com/problems/counting-bits/description/) | [DP](./solutions/338.DP.py), [induction](./solutions/338.induction.py) |  |
