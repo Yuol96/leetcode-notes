@@ -32,9 +32,9 @@ I will keep on updating this repo and working on more leetcode questions. You ca
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**190** questions solved in total
+**192** questions solved in total
 
-**94** easy questions, **90** medium questions, and **6** hard questions
+**94** easy questions, **92** medium questions, and **6** hard questions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -140,23 +140,6 @@ My leetcode notes and solutions
 | medium | [72. edit distance](https://leetcode.com/problems/edit-distance/description/) | [solution](./solutions/72.py) | string |
 | medium | [650. 2 keys keyboard](https://leetcode.com/problems/2-keys-keyboard/description/) | [solution](./solutions/650.py) | string |
 | medium | [338. counting bits](https://leetcode.com/problems/counting-bits/description/) | [DP](./solutions/338.DP.py), [induction](./solutions/338.induction.py) |  |
-## math
-| Difficulty | Question | Version | Tags |
-| ------ | ------ | ------ | ------ |
-| easy | [204. count primes](https://leetcode.com/problems/count-primes/description/) | [solution](./solutions/204.py) | prime |
-| easy | [504. base 7](https://leetcode.com/problems/base-7/description/) | [second](./solutions/504.second.py), [first](./solutions/504.first.py) | base-conversion |
-| easy | [405. convert a number to hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/description/) | [solution](./solutions/405.py) | base-conversion |
-| easy | [168. excel sheet column title](https://leetcode.com/problems/excel-sheet-column-title/description/) | [solution](./solutions/168.py) | base-conversion |
-| easy | [172. factorial trailing zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/) | [solution](./solutions/172.py) |  |
-| easy | [67. add binary](https://leetcode.com/problems/add-binary/description/) | [solution](./solutions/67.py) | binary, string-number |
-| easy | [415. add strings](https://leetcode.com/problems/add-strings/description/) | [solution](./solutions/415.py) | string-number |
-| medium | [462. minimum moves to equal array elements ii](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/) | [quick-select](./solutions/462.quick-select.py), [quick-sort](./solutions/462.quick-sort.py) | median, quick-select |
-| easy | [169. majority element](https://leetcode.com/problems/majority-element/description/) | [quick-select](./solutions/169.quick-select.py), [boyer-moore](./solutions/169.boyer-moore.py), [quick-sort](./solutions/169.quick-sort.py), [naive](./solutions/169.naive.py) |  |
-| easy | [367. valid perfect square](https://leetcode.com/problems/valid-perfect-square/description/) | [delta-array](./solutions/367.delta-array.py), [naive](./solutions/367.naive.py) | square |
-| easy | [326. power of three](https://leetcode.com/problems/power-of-three/description/) | [mod](./solutions/326.mod.py), [naive](./solutions/326.naive.py) |  |
-| medium | [238. product of array except self](https://leetcode.com/problems/product-of-array-except-self/description/) | [solution](./solutions/238.py) |  |
-| easy | [628. maximum product of three numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/) | [smart-bruteForce](./solutions/628.smart-bruteForce.py) |  |
-| easy | [202. happy number](https://leetcode.com/problems/happy-number/description/) | [solution](./solutions/202.py) |  |
 ## linked-list
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -170,6 +153,24 @@ My leetcode notes and solutions
 | easy | [234. palindrome linked list](https://leetcode.com/problems/palindrome-linked-list/description/) | [reverse](./solutions/234.reverse.py), [recursive](./solutions/234.recursive.py) |  |
 | medium | [725. split linked list in parts](https://leetcode.com/problems/split-linked-list-in-parts/description/) | [solution](./solutions/725.py) |  |
 | medium | [328. odd even linked list](https://leetcode.com/problems/odd-even-linked-list/description/) | [solution](./solutions/328.py) |  |
+## math
+| Difficulty | Question | Version | Tags |
+| ------ | ------ | ------ | ------ |
+| easy | [204. count primes](https://leetcode.com/problems/count-primes/description/) | [solution](./solutions/204.py) | prime |
+| easy | [504. base 7](https://leetcode.com/problems/base-7/description/) | [second](./solutions/504.second.py), [first](./solutions/504.first.py) | base-conversion |
+| easy | [405. convert a number to hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/description/) | [solution](./solutions/405.py) | base-conversion |
+| easy | [168. excel sheet column title](https://leetcode.com/problems/excel-sheet-column-title/description/) | [solution](./solutions/168.py) | base-conversion |
+| easy | [172. factorial trailing zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/) | [solution](./solutions/172.py) |  |
+| easy | [67. add binary](https://leetcode.com/problems/add-binary/description/) | [solution](./solutions/67.py) | binary, string-number |
+| easy | [415. add strings](https://leetcode.com/problems/add-strings/description/) | [solution](./solutions/415.py) | string-number |
+| medium | [462. minimum moves to equal array elements ii](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/description/) | [quick-select](./solutions/462.quick-select.py), [quick-sort](./solutions/462.quick-sort.py) | quick-select, median |
+| easy | [169. majority element](https://leetcode.com/problems/majority-element/description/) | [quick-select](./solutions/169.quick-select.py), [boyer-moore](./solutions/169.boyer-moore.py), [quick-sort](./solutions/169.quick-sort.py), [naive](./solutions/169.naive.py) |  |
+| easy | [367. valid perfect square](https://leetcode.com/problems/valid-perfect-square/description/) | [delta-array](./solutions/367.delta-array.py), [naive](./solutions/367.naive.py) | square |
+| easy | [326. power of three](https://leetcode.com/problems/power-of-three/description/) | [mod](./solutions/326.mod.py), [naive](./solutions/326.naive.py) |  |
+| medium | [238. product of array except self](https://leetcode.com/problems/product-of-array-except-self/description/) | [solution](./solutions/238.py) |  |
+| easy | [628. maximum product of three numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/) | [smart-bruteForce](./solutions/628.smart-bruteForce.py) |  |
+| easy | [202. happy number](https://leetcode.com/problems/happy-number/description/) | [solution](./solutions/202.py) |  |
+| medium | [49. group anagrams](https://leetcode.com/problems/group-anagrams/) | [prime](./solutions/49.prime.py), [hash](./solutions/49.hash.py) | anagram |
 ## tree
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -213,14 +214,6 @@ My leetcode notes and solutions
 | easy | [20. valid parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [solution](./solutions/20.py) |  |
 | medium | [739. daily temperatures](https://leetcode.com/problems/daily-temperatures/description/) | [stack](./solutions/739.stack.py), [naive](./solutions/739.naive.py) |  |
 | medium | [503. next greater element ii](https://leetcode.com/problems/next-greater-element-ii/description/) | [solution](./solutions/503.py) |  |
-## hash table
-| Difficulty | Question | Version | Tags |
-| ------ | ------ | ------ | ------ |
-| easy | [1. two sum](https://leetcode.com/problems/two-sum/description/) | [solution](./solutions/1.py) | two pointers |
-| easy | [217. contains duplicate](https://leetcode.com/problems/contains-duplicate/description/) | [set](./solutions/217.set.py) |  |
-| easy | [594. longest harmonious subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/description/) | [solution](./solutions/594.py) |  |
-| hard | [128. longest consecutive sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/) | [solution](./solutions/128.py) |  |
-| medium | [454. 4sum ii](https://leetcode.com/problems/4sum-ii/description/) | [solution](./solutions/454.py) |  |
 ## string
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -234,6 +227,16 @@ My leetcode notes and solutions
 | easy | [38. count and say](https://leetcode.com/problems/count-and-say/description/) | [solution](./solutions/38.py) |  |
 | easy | [28. implement strstr](https://leetcode.com/problems/implement-strstr/description/) | [solution](./solutions/28.py) | *stringMatch |
 | easy | [125. valid palindrome](https://leetcode.com/problems/valid-palindrome/description/) | [solution](./solutions/125.py) | palindrome |
+## hash table
+| Difficulty | Question | Version | Tags |
+| ------ | ------ | ------ | ------ |
+| easy | [1. two sum](https://leetcode.com/problems/two-sum/description/) | [solution](./solutions/1.py) | two pointers |
+| easy | [217. contains duplicate](https://leetcode.com/problems/contains-duplicate/description/) | [set](./solutions/217.set.py) |  |
+| easy | [594. longest harmonious subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/description/) | [solution](./solutions/594.py) |  |
+| hard | [128. longest consecutive sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/) | [solution](./solutions/128.py) |  |
+| medium | [454. 4sum ii](https://leetcode.com/problems/4sum-ii/description/) | [solution](./solutions/454.py) |  |
+| medium | [49. group anagrams](https://leetcode.com/problems/group-anagrams/) | [prime](./solutions/49.prime.py), [hash](./solutions/49.hash.py) | anagram |
+| medium | [380. insert delete getrandom o1](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [solution](./solutions/380.py) |  |
 ## array
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
