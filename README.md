@@ -32,13 +32,13 @@ I will keep on updating this repo and working on more leetcode questions. You ca
 # Leetcode Solutions
 My leetcode notes and solutions
 
-**189** questions solved in total
+**190** questions solved in total
 
-**94** easy questions, **89** medium questions, and **6** hard questions
+**94** easy questions, **90** medium questions, and **6** hard questions
 ## sort
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
-| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | heap, quick-select |
+| medium | [215. kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | [quick-select](./solutions/215.quick-select.py), [heap](./solutions/215.heap.py) | quick-select, heap |
 | medium | [347. top k frequent elements](https://leetcode.com/problems/top-k-frequent-elements/description/) | [solution](./solutions/347.py) | topk, bucket-sort |
 | medium | [451. sort characters by frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/) | [solution](./solutions/451.py) | bucket-sort |
 | medium | [75. sort colors](https://leetcode.com/problems/sort-colors/description/) | [solution](./solutions/75.py) | partition, 三向切分快速排序 |
@@ -221,6 +221,19 @@ My leetcode notes and solutions
 | easy | [594. longest harmonious subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/description/) | [solution](./solutions/594.py) |  |
 | hard | [128. longest consecutive sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/) | [solution](./solutions/128.py) |  |
 | medium | [454. 4sum ii](https://leetcode.com/problems/4sum-ii/description/) | [solution](./solutions/454.py) |  |
+## string
+| Difficulty | Question | Version | Tags |
+| ------ | ------ | ------ | ------ |
+| easy | [242. valid anagram](https://leetcode.com/problems/valid-anagram/description/) | [list](./solutions/242.list.py) |  |
+| easy | [409. longest palindrome](https://leetcode.com/problems/longest-palindrome/description/) | [solution](./solutions/409.py) | palindrome |
+| easy | [205. isomorphic strings](https://leetcode.com/problems/isomorphic-strings/description/) | [second](./solutions/205.second.py), [first](./solutions/205.first.py) |  |
+| medium | [647. palindromic substrings](https://leetcode.com/problems/palindromic-substrings/description/) | [solution](./solutions/647.py) | palindrome |
+| easy | [9. palindrome number](https://leetcode.com/problems/palindrome-number/description/) | [reverse](./solutions/9.reverse.py), [two-pointers](./solutions/9.two-pointers.py) | palindrome |
+| easy | [696. count binary substrings](https://leetcode.com/problems/count-binary-substrings/description/) | [alternative](./solutions/696.alternative.py), [center](./solutions/696.center.py) | palindrome |
+| easy | [118. pascals triangle](https://leetcode.com/problems/pascals-triangle/description/) | [solution](./solutions/118.py) |  |
+| easy | [38. count and say](https://leetcode.com/problems/count-and-say/description/) | [solution](./solutions/38.py) |  |
+| easy | [28. implement strstr](https://leetcode.com/problems/implement-strstr/description/) | [solution](./solutions/28.py) | *stringMatch |
+| easy | [125. valid palindrome](https://leetcode.com/problems/valid-palindrome/description/) | [solution](./solutions/125.py) | palindrome |
 ## array
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
@@ -242,19 +255,7 @@ My leetcode notes and solutions
 | easy | [171. excel sheet column number](https://leetcode.com/problems/excel-sheet-column-number/description/) | [solution](./solutions/171.py) | excel, 进制 |
 | easy | [350. intersection of two arrays ii](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/) | [solution](./solutions/350.py) |  |
 | easy | [189. rotate array](https://leetcode.com/problems/rotate-array/description/) | [solution](./solutions/189.py) | in-place, ** |
-## string
-| Difficulty | Question | Version | Tags |
-| ------ | ------ | ------ | ------ |
-| easy | [242. valid anagram](https://leetcode.com/problems/valid-anagram/description/) | [list](./solutions/242.list.py) |  |
-| easy | [409. longest palindrome](https://leetcode.com/problems/longest-palindrome/description/) | [solution](./solutions/409.py) | palindrome |
-| easy | [205. isomorphic strings](https://leetcode.com/problems/isomorphic-strings/description/) | [second](./solutions/205.second.py), [first](./solutions/205.first.py) |  |
-| medium | [647. palindromic substrings](https://leetcode.com/problems/palindromic-substrings/description/) | [solution](./solutions/647.py) | palindrome |
-| easy | [9. palindrome number](https://leetcode.com/problems/palindrome-number/description/) | [reverse](./solutions/9.reverse.py), [two-pointers](./solutions/9.two-pointers.py) | palindrome |
-| easy | [696. count binary substrings](https://leetcode.com/problems/count-binary-substrings/description/) | [alternative](./solutions/696.alternative.py), [center](./solutions/696.center.py) | palindrome |
-| easy | [118. pascals triangle](https://leetcode.com/problems/pascals-triangle/description/) | [solution](./solutions/118.py) |  |
-| easy | [38. count and say](https://leetcode.com/problems/count-and-say/description/) | [solution](./solutions/38.py) |  |
-| easy | [28. implement strstr](https://leetcode.com/problems/implement-strstr/description/) | [solution](./solutions/28.py) | *stringMatch |
-| easy | [125. valid palindrome](https://leetcode.com/problems/valid-palindrome/description/) | [solution](./solutions/125.py) | palindrome |
+| medium | [48. rotate image](https://leetcode.com/problems/rotate-image/description/) | [smart](./solutions/48.smart.py), [recursive](./solutions/48.recursive.py) | in-place |
 ## graph
 | Difficulty | Question | Version | Tags |
 | ------ | ------ | ------ | ------ |
