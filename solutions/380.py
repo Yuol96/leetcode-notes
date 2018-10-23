@@ -6,7 +6,7 @@
     "beats": 0.9877,
     "category": ["hash table"],
     "tags": [],
-    "questions": []
+    "questions": ["*duplicate num?"]
 }
 """
 
