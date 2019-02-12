@@ -2,8 +2,10 @@
 
 Welcome!
 
-In order to hone my algorithm skills, I have been continuing working on leetcode questions since August 2018. 
-To put more focus on algorithms, I choose python3 as my programming language, since it seems to be easier to implement an idea.
+In order to hone my algorithm skills, I have been continuing working on leetcode questions since August 2018.
+
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) If you are interested in [my Java Solutions](https://yuol96.github.io/MyNotes/leetcode/notes.html), please visit [another repo](https://github.com/Yuol96/MyNotes) of mine. ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)
+
 Most of the questions have a specific `.py` file under the `solutions/` folder, while some of questions have multiple versions of solutions. 
 
 If you are interested in this repo, feel free to fork it and put your solutions to it. 
